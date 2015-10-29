@@ -1,6 +1,6 @@
-# [Rutas De Tenerife V2](https://play.google.com/store/apps/details?id=com.rutas.java)
+# [Rutas De Tenerife IOS](https://play.google.com/store/apps/details?id=com.rutas.java)
 
-The best Tenerife's walking routes in your Android device!
+The best Tenerife's walking routes in your IOS device!
 
 Detailed information about Rutas de Tenerife:
 - Distance of the route.
