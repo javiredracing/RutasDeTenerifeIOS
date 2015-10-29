@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+@import GoogleMaps;
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyAbS8ztZsK2R1TU-RQ-8Sx8opgNnJXtu48"];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ViewController *map = [[ViewController alloc] init];
+    self.window.rootViewController = map;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

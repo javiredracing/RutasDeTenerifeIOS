@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		595A37F6A157DA0CB3F11742 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDF64A23B71FCEE662F798B /* libPods.a */; };
 		9D185C711BE24602005AFBC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C701BE24602005AFBC1 /* main.m */; };
 		9D185C741BE24602005AFBC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C731BE24602005AFBC1 /* AppDelegate.m */; };
 		9D185C771BE24602005AFBC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C761BE24602005AFBC1 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		9D185C7F1BE24602005AFBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D185C7D1BE24602005AFBC1 /* LaunchScreen.storyboard */; };
 		9D185C8A1BE24602005AFBC1 /* RutasDeTenerifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */; };
 		9D185C951BE24602005AFBC1 /* RutasDeTenerifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */; };
+		9D185CE21BE26A23005AFBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D185CE11BE26A23005AFBC1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4C36A932E4B47D5A0D6BE2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9D185C6C1BE24602005AFBC1 /* RutasDeTenerife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RutasDeTenerife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D185C701BE24602005AFBC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D185C721BE24602005AFBC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		9D185C901BE24602005AFBC1 /* RutasDeTenerifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutasDeTenerifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RutasDeTenerifeUITests.m; sourceTree = "<group>"; };
 		9D185C961BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D185CE11BE26A23005AFBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8727CC526ACB733836C39E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DDDF64A23B71FCEE662F798B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D185CE21BE26A23005AFBC1 /* Foundation.framework in Frameworks */,
+				595A37F6A157DA0CB3F11742 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2269820B3F12859B5C73B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D185CE11BE26A23005AFBC1 /* Foundation.framework */,
+				DDDF64A23B71FCEE662F798B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D185C631BE24602005AFBC1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				9D185C881BE24602005AFBC1 /* RutasDeTenerifeTests */,
 				9D185C931BE24602005AFBC1 /* RutasDeTenerifeUITests */,
 				9D185C6D1BE24602005AFBC1 /* Products */,
+				F22874F43E70393D1A9187DD /* Pods */,
+				1E2269820B3F12859B5C73B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +159,15 @@
 			path = RutasDeTenerifeUITests;
 			sourceTree = "<group>";
 		};
+		F22874F43E70393D1A9187DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D4C36A932E4B47D5A0D6BE2 /* Pods.debug.xcconfig */,
+				B8727CC526ACB733836C39E9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D185C991BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerife" */;
 			buildPhases = (
+				113EF156D0372F3273E5108C /* Check Pods Manifest.lock */,
 				9D185C681BE24602005AFBC1 /* Sources */,
 				9D185C691BE24602005AFBC1 /* Frameworks */,
 				9D185C6A1BE24602005AFBC1 /* Resources */,
+				BB345E0E8201BF1D3197A57B /* Embed Pods Frameworks */,
+				4386F220D0E66C1B562196E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113EF156D0372F3273E5108C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4386F220D0E66C1B562196E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB345E0E8201BF1D3197A57B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D185C681BE24602005AFBC1 /* Sources */ = {
@@ -411,11 +490,12 @@
 		};
 		9D185C9A1BE24602005AFBC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4C36A932E4B47D5A0D6BE2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,11 +504,12 @@
 		};
 		9D185C9B1BE24602005AFBC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8727CC526ACB733836C39E9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +583,7 @@
 				9D185C9B1BE24602005AFBC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D185C9C1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +592,7 @@
 				9D185C9E1BE24602005AFBC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D185C9F1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +601,7 @@
 				9D185CA11BE24602005AFBC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
