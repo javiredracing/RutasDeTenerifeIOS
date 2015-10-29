@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D185C711BE24602005AFBC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C701BE24602005AFBC1 /* main.m */; };
+		9D185C741BE24602005AFBC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C731BE24602005AFBC1 /* AppDelegate.m */; };
+		9D185C771BE24602005AFBC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C761BE24602005AFBC1 /* ViewController.m */; };
+		9D185C7A1BE24602005AFBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D185C781BE24602005AFBC1 /* Main.storyboard */; };
+		9D185C7C1BE24602005AFBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D185C7B1BE24602005AFBC1 /* Assets.xcassets */; };
+		9D185C7F1BE24602005AFBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D185C7D1BE24602005AFBC1 /* LaunchScreen.storyboard */; };
+		9D185C8A1BE24602005AFBC1 /* RutasDeTenerifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */; };
+		9D185C951BE24602005AFBC1 /* RutasDeTenerifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D185C861BE24602005AFBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D185C641BE24602005AFBC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D185C6B1BE24602005AFBC1;
+			remoteInfo = RutasDeTenerife;
+		};
+		9D185C911BE24602005AFBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D185C641BE24602005AFBC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D185C6B1BE24602005AFBC1;
+			remoteInfo = RutasDeTenerife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D185C6C1BE24602005AFBC1 /* RutasDeTenerife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RutasDeTenerife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D185C701BE24602005AFBC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D185C721BE24602005AFBC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D185C731BE24602005AFBC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D185C751BE24602005AFBC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D185C761BE24602005AFBC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D185C791BE24602005AFBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D185C7B1BE24602005AFBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D185C7E1BE24602005AFBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D185C801BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D185C851BE24602005AFBC1 /* RutasDeTenerifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutasDeTenerifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RutasDeTenerifeTests.m; sourceTree = "<group>"; };
+		9D185C8B1BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D185C901BE24602005AFBC1 /* RutasDeTenerifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutasDeTenerifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RutasDeTenerifeUITests.m; sourceTree = "<group>"; };
+		9D185C961BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D185C691BE24602005AFBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C821BE24602005AFBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C8D1BE24602005AFBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D185C631BE24602005AFBC1 = {
+			isa = PBXGroup;
+			children = (
+				9D185C6E1BE24602005AFBC1 /* RutasDeTenerife */,
+				9D185C881BE24602005AFBC1 /* RutasDeTenerifeTests */,
+				9D185C931BE24602005AFBC1 /* RutasDeTenerifeUITests */,
+				9D185C6D1BE24602005AFBC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D185C6D1BE24602005AFBC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D185C6C1BE24602005AFBC1 /* RutasDeTenerife.app */,
+				9D185C851BE24602005AFBC1 /* RutasDeTenerifeTests.xctest */,
+				9D185C901BE24602005AFBC1 /* RutasDeTenerifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D185C6E1BE24602005AFBC1 /* RutasDeTenerife */ = {
+			isa = PBXGroup;
+			children = (
+				9D185C721BE24602005AFBC1 /* AppDelegate.h */,
+				9D185C731BE24602005AFBC1 /* AppDelegate.m */,
+				9D185C751BE24602005AFBC1 /* ViewController.h */,
+				9D185C761BE24602005AFBC1 /* ViewController.m */,
+				9D185C781BE24602005AFBC1 /* Main.storyboard */,
+				9D185C7B1BE24602005AFBC1 /* Assets.xcassets */,
+				9D185C7D1BE24602005AFBC1 /* LaunchScreen.storyboard */,
+				9D185C801BE24602005AFBC1 /* Info.plist */,
+				9D185C6F1BE24602005AFBC1 /* Supporting Files */,
+			);
+			path = RutasDeTenerife;
+			sourceTree = "<group>";
+		};
+		9D185C6F1BE24602005AFBC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D185C701BE24602005AFBC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D185C881BE24602005AFBC1 /* RutasDeTenerifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */,
+				9D185C8B1BE24602005AFBC1 /* Info.plist */,
+			);
+			path = RutasDeTenerifeTests;
+			sourceTree = "<group>";
+		};
+		9D185C931BE24602005AFBC1 /* RutasDeTenerifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */,
+				9D185C961BE24602005AFBC1 /* Info.plist */,
+			);
+			path = RutasDeTenerifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D185C6B1BE24602005AFBC1 /* RutasDeTenerife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D185C991BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerife" */;
+			buildPhases = (
+				9D185C681BE24602005AFBC1 /* Sources */,
+				9D185C691BE24602005AFBC1 /* Frameworks */,
+				9D185C6A1BE24602005AFBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RutasDeTenerife;
+			productName = RutasDeTenerife;
+			productReference = 9D185C6C1BE24602005AFBC1 /* RutasDeTenerife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D185C841BE24602005AFBC1 /* RutasDeTenerifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D185C9C1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeTests" */;
+			buildPhases = (
+				9D185C811BE24602005AFBC1 /* Sources */,
+				9D185C821BE24602005AFBC1 /* Frameworks */,
+				9D185C831BE24602005AFBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D185C871BE24602005AFBC1 /* PBXTargetDependency */,
+			);
+			name = RutasDeTenerifeTests;
+			productName = RutasDeTenerifeTests;
+			productReference = 9D185C851BE24602005AFBC1 /* RutasDeTenerifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D185C8F1BE24602005AFBC1 /* RutasDeTenerifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D185C9F1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeUITests" */;
+			buildPhases = (
+				9D185C8C1BE24602005AFBC1 /* Sources */,
+				9D185C8D1BE24602005AFBC1 /* Frameworks */,
+				9D185C8E1BE24602005AFBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D185C921BE24602005AFBC1 /* PBXTargetDependency */,
+			);
+			name = RutasDeTenerifeUITests;
+			productName = RutasDeTenerifeUITests;
+			productReference = 9D185C901BE24602005AFBC1 /* RutasDeTenerifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D185C641BE24602005AFBC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JAVI;
+				TargetAttributes = {
+					9D185C6B1BE24602005AFBC1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9D185C841BE24602005AFBC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9D185C6B1BE24602005AFBC1;
+					};
+					9D185C8F1BE24602005AFBC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9D185C6B1BE24602005AFBC1;
+					};
+				};
+			};
+			buildConfigurationList = 9D185C671BE24602005AFBC1 /* Build configuration list for PBXProject "RutasDeTenerife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D185C631BE24602005AFBC1;
+			productRefGroup = 9D185C6D1BE24602005AFBC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D185C6B1BE24602005AFBC1 /* RutasDeTenerife */,
+				9D185C841BE24602005AFBC1 /* RutasDeTenerifeTests */,
+				9D185C8F1BE24602005AFBC1 /* RutasDeTenerifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D185C6A1BE24602005AFBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D185C7F1BE24602005AFBC1 /* LaunchScreen.storyboard in Resources */,
+				9D185C7C1BE24602005AFBC1 /* Assets.xcassets in Resources */,
+				9D185C7A1BE24602005AFBC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C831BE24602005AFBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C8E1BE24602005AFBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D185C681BE24602005AFBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D185C771BE24602005AFBC1 /* ViewController.m in Sources */,
+				9D185C741BE24602005AFBC1 /* AppDelegate.m in Sources */,
+				9D185C711BE24602005AFBC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C811BE24602005AFBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D185C8A1BE24602005AFBC1 /* RutasDeTenerifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D185C8C1BE24602005AFBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D185C951BE24602005AFBC1 /* RutasDeTenerifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D185C871BE24602005AFBC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D185C6B1BE24602005AFBC1 /* RutasDeTenerife */;
+			targetProxy = 9D185C861BE24602005AFBC1 /* PBXContainerItemProxy */;
+		};
+		9D185C921BE24602005AFBC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D185C6B1BE24602005AFBC1 /* RutasDeTenerife */;
+			targetProxy = 9D185C911BE24602005AFBC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D185C781BE24602005AFBC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D185C791BE24602005AFBC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D185C7D1BE24602005AFBC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D185C7E1BE24602005AFBC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D185C971BE24602005AFBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D185C981BE24602005AFBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D185C9A1BE24602005AFBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D185C9B1BE24602005AFBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D185C9D1BE24602005AFBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RutasDeTenerifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RutasDeTenerife.app/RutasDeTenerife";
+			};
+			name = Debug;
+		};
+		9D185C9E1BE24602005AFBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RutasDeTenerifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RutasDeTenerife.app/RutasDeTenerife";
+			};
+			name = Release;
+		};
+		9D185CA01BE24602005AFBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RutasDeTenerifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RutasDeTenerife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9D185CA11BE24602005AFBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RutasDeTenerifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RutasDeTenerife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D185C671BE24602005AFBC1 /* Build configuration list for PBXProject "RutasDeTenerife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D185C971BE24602005AFBC1 /* Debug */,
+				9D185C981BE24602005AFBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D185C991BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D185C9A1BE24602005AFBC1 /* Debug */,
+				9D185C9B1BE24602005AFBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D185C9C1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D185C9D1BE24602005AFBC1 /* Debug */,
+				9D185C9E1BE24602005AFBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D185C9F1BE24602005AFBC1 /* Build configuration list for PBXNativeTarget "RutasDeTenerifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D185CA01BE24602005AFBC1 /* Debug */,
+				9D185CA11BE24602005AFBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D185C641BE24602005AFBC1 /* Project object */;
+}
