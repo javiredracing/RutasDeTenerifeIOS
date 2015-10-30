@@ -17,6 +17,213 @@
 		9D185C8A1BE24602005AFBC1 /* RutasDeTenerifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */; };
 		9D185C951BE24602005AFBC1 /* RutasDeTenerifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */; };
 		9D185CE21BE26A23005AFBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D185CE11BE26A23005AFBC1 /* Foundation.framework */; };
+		9DB1A33B1BE385B6009E0FD6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3311BE385B6009E0FD6 /* FMDatabase.m */; };
+		9DB1A33C1BE385B6009E0FD6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3331BE385B6009E0FD6 /* FMDatabaseAdditions.m */; };
+		9DB1A33D1BE385B6009E0FD6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3351BE385B6009E0FD6 /* FMDatabasePool.m */; };
+		9DB1A33E1BE385B6009E0FD6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3371BE385B6009E0FD6 /* FMDatabaseQueue.m */; };
+		9DB1A33F1BE385B6009E0FD6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A33A1BE385B6009E0FD6 /* FMResultSet.m */; };
+		9DB1A3411BE3902B009E0FD6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB1A3401BE3902B009E0FD6 /* libsqlite3.tbd */; };
+		9DB1A3441BE391F9009E0FD6 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3431BE391F9009E0FD6 /* Database.m */; };
+		9DB1A40D1BE3969C009E0FD6 /* 02-arenas-negras.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3461BE3969B009E0FD6 /* 02-arenas-negras.gpx */; };
+		9DB1A40E1BE3969C009E0FD6 /* 02-arenas-negras.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3471BE3969B009E0FD6 /* 02-arenas-negras.kml */; };
+		9DB1A40F1BE3969C009E0FD6 /* 03-roques-garcia.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3481BE3969B009E0FD6 /* 03-roques-garcia.gpx */; };
+		9DB1A4101BE3969C009E0FD6 /* 03-roques-garcia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3491BE3969B009E0FD6 /* 03-roques-garcia.kml */; };
+		9DB1A4111BE3969C009E0FD6 /* 07-montana-blanca.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34A1BE3969B009E0FD6 /* 07-montana-blanca.gpx */; };
+		9DB1A4121BE3969C009E0FD6 /* 07-montana-blanca.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34B1BE3969B009E0FD6 /* 07-montana-blanca.kml */; };
+		9DB1A4131BE3969C009E0FD6 /* 14-alto-de-guamaso.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34C1BE3969B009E0FD6 /* 14-alto-de-guamaso.gpx */; };
+		9DB1A4141BE3969C009E0FD6 /* 14-alto-de-guamaso.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34D1BE3969B009E0FD6 /* 14-alto-de-guamaso.kml */; };
+		9DB1A4151BE3969C009E0FD6 /* 16-el-sanatorio.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34E1BE3969B009E0FD6 /* 16-el-sanatorio.gpx */; };
+		9DB1A4161BE3969C009E0FD6 /* 16-el-sanatorio.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A34F1BE3969B009E0FD6 /* 16-el-sanatorio.kml */; };
+		9DB1A4171BE3969C009E0FD6 /* 19-majua.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3501BE3969B009E0FD6 /* 19-majua.gpx */; };
+		9DB1A4181BE3969C009E0FD6 /* 19-majua.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3511BE3969B009E0FD6 /* 19-majua.kml */; };
+		9DB1A4191BE3969C009E0FD6 /* afur-playa-tamadite.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3521BE3969B009E0FD6 /* afur-playa-tamadite.gpx */; };
+		9DB1A41A1BE3969C009E0FD6 /* afur-playa-tamadite.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3531BE3969B009E0FD6 /* afur-playa-tamadite.kml */; };
+		9DB1A41B1BE3969C009E0FD6 /* antequera.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3541BE3969B009E0FD6 /* antequera.gpx */; };
+		9DB1A41C1BE3969C009E0FD6 /* antequera.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3551BE3969B009E0FD6 /* antequera.kml */; };
+		9DB1A41D1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3561BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx */; };
+		9DB1A41E1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3571BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml */; };
+		9DB1A41F1BE3969C009E0FD6 /* BDRutas in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3581BE3969B009E0FD6 /* BDRutas */; };
+		9DB1A4201BE3969C009E0FD6 /* chavao.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3591BE3969B009E0FD6 /* chavao.gpx */; };
+		9DB1A4211BE3969C009E0FD6 /* chavao.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35A1BE3969B009E0FD6 /* chavao.kml */; };
+		9DB1A4221BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35B1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.gpx */; };
+		9DB1A4231BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35C1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.kml */; };
+		9DB1A4241BE3969C009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35D1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx */; };
+		9DB1A4251BE3969C009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35E1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.kml */; };
+		9DB1A4261BE3969C009E0FD6 /* Descenso+barranco+Masca.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A35F1BE3969B009E0FD6 /* Descenso+barranco+Masca.gpx */; };
+		9DB1A4271BE3969C009E0FD6 /* Descenso+barranco+Masca.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3601BE3969B009E0FD6 /* Descenso+barranco+Masca.kml */; };
+		9DB1A4281BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3611BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx */; };
+		9DB1A4291BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3621BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml */; };
+		9DB1A42A1BE3969C009E0FD6 /* GR 131 Etapa 1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3631BE3969B009E0FD6 /* GR 131 Etapa 1.gpx */; };
+		9DB1A42B1BE3969C009E0FD6 /* GR 131 Etapa 1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3641BE3969B009E0FD6 /* GR 131 Etapa 1.kml */; };
+		9DB1A42C1BE3969C009E0FD6 /* GR 131 Etapa 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3651BE3969B009E0FD6 /* GR 131 Etapa 2.gpx */; };
+		9DB1A42D1BE3969C009E0FD6 /* GR 131 Etapa 2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3661BE3969B009E0FD6 /* GR 131 Etapa 2.kml */; };
+		9DB1A42E1BE3969C009E0FD6 /* GR 131 Etapa 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3671BE3969B009E0FD6 /* GR 131 Etapa 3.gpx */; };
+		9DB1A42F1BE3969C009E0FD6 /* GR 131 Etapa 3.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3681BE3969B009E0FD6 /* GR 131 Etapa 3.kml */; };
+		9DB1A4301BE3969C009E0FD6 /* GR 131 Etapa 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3691BE3969B009E0FD6 /* GR 131 Etapa 4.gpx */; };
+		9DB1A4311BE3969C009E0FD6 /* GR 131 Etapa 4.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36A1BE3969B009E0FD6 /* GR 131 Etapa 4.kml */; };
+		9DB1A4321BE3969C009E0FD6 /* GR 131 Etapa 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36B1BE3969B009E0FD6 /* GR 131 Etapa 5.gpx */; };
+		9DB1A4331BE3969C009E0FD6 /* GR 131 Etapa 5.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36C1BE3969B009E0FD6 /* GR 131 Etapa 5.kml */; };
+		9DB1A4341BE3969C009E0FD6 /* GR 131.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36D1BE3969B009E0FD6 /* GR 131.1.gpx */; };
+		9DB1A4351BE3969C009E0FD6 /* GR 131.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36E1BE3969B009E0FD6 /* GR 131.1.kml */; };
+		9DB1A4361BE3969C009E0FD6 /* igueque-sendero-no17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A36F1BE3969B009E0FD6 /* igueque-sendero-no17.gpx */; };
+		9DB1A4371BE3969C009E0FD6 /* igueque-sendero-no17.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3701BE3969B009E0FD6 /* igueque-sendero-no17.kml */; };
+		9DB1A4381BE3969C009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3711BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx */; };
+		9DB1A4391BE3969C009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3721BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.kml */; };
+		9DB1A43A1BE3969C009E0FD6 /* las-hiedras-circular.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3731BE3969B009E0FD6 /* las-hiedras-circular.gpx */; };
+		9DB1A43B1BE3969C009E0FD6 /* las-hiedras-circular.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3741BE3969B009E0FD6 /* las-hiedras-circular.kml */; };
+		9DB1A43C1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3751BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.gpx */; };
+		9DB1A43D1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3761BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.kml */; };
+		9DB1A43E1BE3969C009E0FD6 /* lsl-tf-60.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3771BE3969B009E0FD6 /* lsl-tf-60.gpx */; };
+		9DB1A43F1BE3969C009E0FD6 /* lsl-tf-60.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3781BE3969B009E0FD6 /* lsl-tf-60.kml */; };
+		9DB1A4401BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3791BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx */; };
+		9DB1A4411BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37A1BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml */; };
+		9DB1A4421BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37B1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx */; };
+		9DB1A4431BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37C1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml */; };
+		9DB1A4441BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37D1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx */; };
+		9DB1A4451BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37E1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml */; };
+		9DB1A4461BE3969C009E0FD6 /* PR-TF 10.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A37F1BE3969B009E0FD6 /* PR-TF 10.1.gpx */; };
+		9DB1A4471BE3969C009E0FD6 /* PR-TF 10.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3801BE3969B009E0FD6 /* PR-TF 10.1.kml */; };
+		9DB1A4481BE3969C009E0FD6 /* PR-TF 10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3811BE3969B009E0FD6 /* PR-TF 10.gpx */; };
+		9DB1A4491BE3969C009E0FD6 /* PR-TF 10.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3821BE3969B009E0FD6 /* PR-TF 10.kml */; };
+		9DB1A44A1BE3969C009E0FD6 /* PR-TF 35.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3831BE3969B009E0FD6 /* PR-TF 35.1.gpx */; };
+		9DB1A44B1BE3969C009E0FD6 /* PR-TF 35.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3841BE3969B009E0FD6 /* PR-TF 35.1.kml */; };
+		9DB1A44C1BE3969C009E0FD6 /* PR-TF 35.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3851BE3969B009E0FD6 /* PR-TF 35.2.gpx */; };
+		9DB1A44D1BE3969C009E0FD6 /* PR-TF 35.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3861BE3969B009E0FD6 /* PR-TF 35.2.kml */; };
+		9DB1A44E1BE3969C009E0FD6 /* PR-TF 35.3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3871BE3969B009E0FD6 /* PR-TF 35.3.gpx */; };
+		9DB1A44F1BE3969C009E0FD6 /* PR-TF 35.3.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3881BE3969B009E0FD6 /* PR-TF 35.3.kml */; };
+		9DB1A4501BE3969C009E0FD6 /* PR-TF 35.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3891BE3969B009E0FD6 /* PR-TF 35.gpx */; };
+		9DB1A4511BE3969C009E0FD6 /* PR-TF 35.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38A1BE3969B009E0FD6 /* PR-TF 35.kml */; };
+		9DB1A4521BE3969C009E0FD6 /* PR-TF 40.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38B1BE3969B009E0FD6 /* PR-TF 40.1.gpx */; };
+		9DB1A4531BE3969C009E0FD6 /* PR-TF 40.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38C1BE3969B009E0FD6 /* PR-TF 40.1.kml */; };
+		9DB1A4541BE3969C009E0FD6 /* PR-TF 40.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38D1BE3969B009E0FD6 /* PR-TF 40.gpx */; };
+		9DB1A4551BE3969C009E0FD6 /* PR-TF 40.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38E1BE3969B009E0FD6 /* PR-TF 40.kml */; };
+		9DB1A4561BE3969C009E0FD6 /* PR-TF 43.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A38F1BE3969B009E0FD6 /* PR-TF 43.1.gpx */; };
+		9DB1A4571BE3969C009E0FD6 /* PR-TF 43.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3901BE3969B009E0FD6 /* PR-TF 43.1.kml */; };
+		9DB1A4581BE3969C009E0FD6 /* PR-TF 43.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3911BE3969B009E0FD6 /* PR-TF 43.2.gpx */; };
+		9DB1A4591BE3969C009E0FD6 /* PR-TF 43.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3921BE3969B009E0FD6 /* PR-TF 43.2.kml */; };
+		9DB1A45A1BE3969C009E0FD6 /* PR-TF 43.3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3931BE3969B009E0FD6 /* PR-TF 43.3.gpx */; };
+		9DB1A45B1BE3969C009E0FD6 /* PR-TF 43.3.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3941BE3969B009E0FD6 /* PR-TF 43.3.kml */; };
+		9DB1A45C1BE3969C009E0FD6 /* PR-TF 43.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3951BE3969B009E0FD6 /* PR-TF 43.gpx */; };
+		9DB1A45D1BE3969C009E0FD6 /* PR-TF 43.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3961BE3969B009E0FD6 /* PR-TF 43.kml */; };
+		9DB1A45E1BE3969C009E0FD6 /* PR-TF 5.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3971BE3969B009E0FD6 /* PR-TF 5.1.gpx */; };
+		9DB1A45F1BE3969C009E0FD6 /* PR-TF 5.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3981BE3969B009E0FD6 /* PR-TF 5.1.kml */; };
+		9DB1A4601BE3969C009E0FD6 /* PR-TF 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3991BE3969B009E0FD6 /* PR-TF 5.gpx */; };
+		9DB1A4611BE3969C009E0FD6 /* PR-TF 5.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39A1BE3969B009E0FD6 /* PR-TF 5.kml */; };
+		9DB1A4621BE3969C009E0FD6 /* PR-TF 51.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39B1BE3969B009E0FD6 /* PR-TF 51.gpx */; };
+		9DB1A4631BE3969C009E0FD6 /* PR-TF 51.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39C1BE3969B009E0FD6 /* PR-TF 51.kml */; };
+		9DB1A4641BE3969C009E0FD6 /* PR-TF 52.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39D1BE3969B009E0FD6 /* PR-TF 52.1.gpx */; };
+		9DB1A4651BE3969C009E0FD6 /* PR-TF 52.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39E1BE3969B009E0FD6 /* PR-TF 52.1.kml */; };
+		9DB1A4661BE3969C009E0FD6 /* PR-TF 52.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A39F1BE3969B009E0FD6 /* PR-TF 52.2.gpx */; };
+		9DB1A4671BE3969C009E0FD6 /* PR-TF 52.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A01BE3969B009E0FD6 /* PR-TF 52.2.kml */; };
+		9DB1A4681BE3969C009E0FD6 /* PR-TF 52.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A11BE3969B009E0FD6 /* PR-TF 52.gpx */; };
+		9DB1A4691BE3969C009E0FD6 /* PR-TF 52.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A21BE3969B009E0FD6 /* PR-TF 52.kml */; };
+		9DB1A46A1BE3969C009E0FD6 /* PR-TF 53.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A31BE3969B009E0FD6 /* PR-TF 53.1.gpx */; };
+		9DB1A46B1BE3969C009E0FD6 /* PR-TF 53.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A41BE3969B009E0FD6 /* PR-TF 53.1.kml */; };
+		9DB1A46C1BE3969C009E0FD6 /* PR-TF 53.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A51BE3969B009E0FD6 /* PR-TF 53.gpx */; };
+		9DB1A46D1BE3969C009E0FD6 /* PR-TF 53.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A61BE3969B009E0FD6 /* PR-TF 53.kml */; };
+		9DB1A46E1BE3969C009E0FD6 /* PR-TF 54.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A71BE3969B009E0FD6 /* PR-TF 54.gpx */; };
+		9DB1A46F1BE3969C009E0FD6 /* PR-TF 54.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A81BE3969B009E0FD6 /* PR-TF 54.kml */; };
+		9DB1A4701BE3969C009E0FD6 /* PR-TF 55.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3A91BE3969B009E0FD6 /* PR-TF 55.gpx */; };
+		9DB1A4711BE3969C009E0FD6 /* PR-TF 55.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AA1BE3969B009E0FD6 /* PR-TF 55.kml */; };
+		9DB1A4721BE3969C009E0FD6 /* PR-TF 56.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AB1BE3969B009E0FD6 /* PR-TF 56.gpx */; };
+		9DB1A4731BE3969C009E0FD6 /* PR-TF 56.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AC1BE3969B009E0FD6 /* PR-TF 56.kml */; };
+		9DB1A4741BE3969C009E0FD6 /* PR-TF 57.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AD1BE3969B009E0FD6 /* PR-TF 57.gpx */; };
+		9DB1A4751BE3969C009E0FD6 /* PR-TF 57.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AE1BE3969C009E0FD6 /* PR-TF 57.kml */; };
+		9DB1A4761BE3969C009E0FD6 /* PR-TF 58.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3AF1BE3969C009E0FD6 /* PR-TF 58.gpx */; };
+		9DB1A4771BE3969C009E0FD6 /* PR-TF 58.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B01BE3969C009E0FD6 /* PR-TF 58.kml */; };
+		9DB1A4781BE3969C009E0FD6 /* PR-TF 59.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B11BE3969C009E0FD6 /* PR-TF 59.gpx */; };
+		9DB1A4791BE3969C009E0FD6 /* PR-TF 59.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B21BE3969C009E0FD6 /* PR-TF 59.kml */; };
+		9DB1A47A1BE3969C009E0FD6 /* PR-TF 65.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B31BE3969C009E0FD6 /* PR-TF 65.gpx */; };
+		9DB1A47B1BE3969C009E0FD6 /* PR-TF 65.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B41BE3969C009E0FD6 /* PR-TF 65.kml */; };
+		9DB1A47C1BE3969C009E0FD6 /* PR-TF 70.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B51BE3969C009E0FD6 /* PR-TF 70.1.gpx */; };
+		9DB1A47D1BE3969C009E0FD6 /* PR-TF 70.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B61BE3969C009E0FD6 /* PR-TF 70.1.kml */; };
+		9DB1A47E1BE3969C009E0FD6 /* PR-TF 70.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B71BE3969C009E0FD6 /* PR-TF 70.2.gpx */; };
+		9DB1A47F1BE3969C009E0FD6 /* PR-TF 70.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B81BE3969C009E0FD6 /* PR-TF 70.2.kml */; };
+		9DB1A4801BE3969C009E0FD6 /* PR-TF 70.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3B91BE3969C009E0FD6 /* PR-TF 70.gpx */; };
+		9DB1A4811BE3969C009E0FD6 /* PR-TF 70.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BA1BE3969C009E0FD6 /* PR-TF 70.kml */; };
+		9DB1A4821BE3969C009E0FD6 /* PR-TF 72.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BB1BE3969C009E0FD6 /* PR-TF 72.gpx */; };
+		9DB1A4831BE3969C009E0FD6 /* PR-TF 72.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BC1BE3969C009E0FD6 /* PR-TF 72.kml */; };
+		9DB1A4841BE3969C009E0FD6 /* PR-TF 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BD1BE3969C009E0FD6 /* PR-TF 8.gpx */; };
+		9DB1A4851BE3969C009E0FD6 /* PR-TF 8.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BE1BE3969C009E0FD6 /* PR-TF 8.kml */; };
+		9DB1A4861BE3969C009E0FD6 /* PR-TF 83.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3BF1BE3969C009E0FD6 /* PR-TF 83.1.gpx */; };
+		9DB1A4871BE3969C009E0FD6 /* PR-TF 83.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C01BE3969C009E0FD6 /* PR-TF 83.1.kml */; };
+		9DB1A4881BE3969C009E0FD6 /* PR-TF 83.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C11BE3969C009E0FD6 /* PR-TF 83.2.gpx */; };
+		9DB1A4891BE3969C009E0FD6 /* PR-TF 83.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C21BE3969C009E0FD6 /* PR-TF 83.2.kml */; };
+		9DB1A48A1BE3969C009E0FD6 /* PR-TF 83.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C31BE3969C009E0FD6 /* PR-TF 83.gpx */; };
+		9DB1A48B1BE3969C009E0FD6 /* PR-TF 83.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C41BE3969C009E0FD6 /* PR-TF 83.kml */; };
+		9DB1A48C1BE3969C009E0FD6 /* PR-TF 86.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C51BE3969C009E0FD6 /* PR-TF 86.1.gpx */; };
+		9DB1A48D1BE3969C009E0FD6 /* PR-TF 86.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C61BE3969C009E0FD6 /* PR-TF 86.1.kml */; };
+		9DB1A48E1BE3969C009E0FD6 /* PR-TF 86.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C71BE3969C009E0FD6 /* PR-TF 86.2.gpx */; };
+		9DB1A48F1BE3969C009E0FD6 /* PR-TF 86.2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C81BE3969C009E0FD6 /* PR-TF 86.2.kml */; };
+		9DB1A4901BE3969C009E0FD6 /* PR-TF 86.3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3C91BE3969C009E0FD6 /* PR-TF 86.3.gpx */; };
+		9DB1A4911BE3969C009E0FD6 /* PR-TF 86.3.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CA1BE3969C009E0FD6 /* PR-TF 86.3.kml */; };
+		9DB1A4921BE3969C009E0FD6 /* PR-TF 86.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CB1BE3969C009E0FD6 /* PR-TF 86.gpx */; };
+		9DB1A4931BE3969C009E0FD6 /* PR-TF 86.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CC1BE3969C009E0FD6 /* PR-TF 86.kml */; };
+		9DB1A4941BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CD1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx */; };
+		9DB1A4951BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CE1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml */; };
+		9DB1A4961BE3969C009E0FD6 /* pr-tf-12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3CF1BE3969C009E0FD6 /* pr-tf-12.gpx */; };
+		9DB1A4971BE3969C009E0FD6 /* pr-tf-12.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D01BE3969C009E0FD6 /* pr-tf-12.kml */; };
+		9DB1A4981BE3969C009E0FD6 /* pr-tf-121.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D11BE3969C009E0FD6 /* pr-tf-121.gpx */; };
+		9DB1A4991BE3969C009E0FD6 /* pr-tf-121.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D21BE3969C009E0FD6 /* pr-tf-121.kml */; };
+		9DB1A49A1BE3969C009E0FD6 /* pr-tf-122.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D31BE3969C009E0FD6 /* pr-tf-122.gpx */; };
+		9DB1A49B1BE3969C009E0FD6 /* pr-tf-122.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D41BE3969C009E0FD6 /* pr-tf-122.kml */; };
+		9DB1A49C1BE3969C009E0FD6 /* pr-tf-3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D51BE3969C009E0FD6 /* pr-tf-3.gpx */; };
+		9DB1A49D1BE3969C009E0FD6 /* pr-tf-3.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D61BE3969C009E0FD6 /* pr-tf-3.kml */; };
+		9DB1A49E1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D71BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx */; };
+		9DB1A49F1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D81BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml */; };
+		9DB1A4A01BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3D91BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx */; };
+		9DB1A4A11BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DA1BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml */; };
+		9DB1A4A21BE3969C009E0FD6 /* pr-tf-6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DB1BE3969C009E0FD6 /* pr-tf-6.gpx */; };
+		9DB1A4A31BE3969C009E0FD6 /* pr-tf-6.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DC1BE3969C009E0FD6 /* pr-tf-6.kml */; };
+		9DB1A4A41BE3969C009E0FD6 /* pr-tf-61.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DD1BE3969C009E0FD6 /* pr-tf-61.gpx */; };
+		9DB1A4A51BE3969C009E0FD6 /* pr-tf-61.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DE1BE3969C009E0FD6 /* pr-tf-61.kml */; };
+		9DB1A4A61BE3969C009E0FD6 /* pr-tf-62.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3DF1BE3969C009E0FD6 /* pr-tf-62.gpx */; };
+		9DB1A4A71BE3969C009E0FD6 /* pr-tf-62.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E01BE3969C009E0FD6 /* pr-tf-62.kml */; };
+		9DB1A4A81BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E11BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx */; };
+		9DB1A4A91BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E21BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml */; };
+		9DB1A4AA1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E31BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx */; };
+		9DB1A4AB1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E41BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml */; };
+		9DB1A4AC1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E51BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx */; };
+		9DB1A4AD1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E61BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml */; };
+		9DB1A4AE1BE3969C009E0FD6 /* pr-tf-9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E71BE3969C009E0FD6 /* pr-tf-9.gpx */; };
+		9DB1A4AF1BE3969C009E0FD6 /* pr-tf-9.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E81BE3969C009E0FD6 /* pr-tf-9.kml */; };
+		9DB1A4B01BE3969C009E0FD6 /* pr-tf2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3E91BE3969C009E0FD6 /* pr-tf2.gpx */; };
+		9DB1A4B11BE3969C009E0FD6 /* pr-tf2.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3EA1BE3969C009E0FD6 /* pr-tf2.kml */; };
+		9DB1A4B21BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3EB1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx */; };
+		9DB1A4B31BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3EC1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml */; };
+		9DB1A4B41BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3ED1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx */; };
+		9DB1A4B51BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3EE1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml */; };
+		9DB1A4B61BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3EF1BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx */; };
+		9DB1A4B71BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F01BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml */; };
+		9DB1A4B81BE3969C009E0FD6 /* SL-TF 81.1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F11BE3969C009E0FD6 /* SL-TF 81.1.gpx */; };
+		9DB1A4B91BE3969C009E0FD6 /* SL-TF 81.1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F21BE3969C009E0FD6 /* SL-TF 81.1.kml */; };
+		9DB1A4BA1BE3969C009E0FD6 /* SL-TF 81.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F31BE3969C009E0FD6 /* SL-TF 81.gpx */; };
+		9DB1A4BB1BE3969C009E0FD6 /* SL-TF 81.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F41BE3969C009E0FD6 /* SL-TF 81.kml */; };
+		9DB1A4BC1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F51BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx */; };
+		9DB1A4BD1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F61BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml */; };
+		9DB1A4BE1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F71BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx */; };
+		9DB1A4BF1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F81BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml */; };
+		9DB1A4C01BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3F91BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx */; };
+		9DB1A4C11BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FA1BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml */; };
+		9DB1A4C21BE3969C009E0FD6 /* sl-tf-60.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FB1BE3969C009E0FD6 /* sl-tf-60.gpx */; };
+		9DB1A4C31BE3969C009E0FD6 /* sl-tf-60.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FC1BE3969C009E0FD6 /* sl-tf-60.kml */; };
+		9DB1A4C41BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FD1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx */; };
+		9DB1A4C51BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FE1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml */; };
+		9DB1A4C61BE3969C009E0FD6 /* sombrero_de_chasna_circular.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A3FF1BE3969C009E0FD6 /* sombrero_de_chasna_circular.gpx */; };
+		9DB1A4C71BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4001BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml */; };
+		9DB1A4C81BE3969C009E0FD6 /* teide1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4011BE3969C009E0FD6 /* teide1.gpx */; };
+		9DB1A4C91BE3969C009E0FD6 /* teide1.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4021BE3969C009E0FD6 /* teide1.kml */; };
+		9DB1A4CA1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4031BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx */; };
+		9DB1A4CB1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4041BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml */; };
+		9DB1A4CC1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4051BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx */; };
+		9DB1A4CD1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4061BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml */; };
+		9DB1A4CE1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4071BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx */; };
+		9DB1A4CF1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4081BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml */; };
+		9DB1A4D01BE3969C009E0FD6 /* tfpr25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A4091BE3969C009E0FD6 /* tfpr25.gpx */; };
+		9DB1A4D11BE3969C009E0FD6 /* tfpr25.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A40A1BE3969C009E0FD6 /* tfpr25.kml */; };
+		9DB1A4D21BE3969C009E0FD6 /* ventanas-de-Guimar.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A40B1BE3969C009E0FD6 /* ventanas-de-Guimar.gpx */; };
+		9DB1A4D31BE3969C009E0FD6 /* ventanas-de-Guimar.kml in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1A40C1BE3969C009E0FD6 /* ventanas-de-Guimar.kml */; };
+		9DB1A4D61BE3ABD8009E0FD6 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A4D51BE3ABD8009E0FD6 /* Route.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +262,221 @@
 		9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RutasDeTenerifeUITests.m; sourceTree = "<group>"; };
 		9D185C961BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D185CE11BE26A23005AFBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DB1A3301BE385B6009E0FD6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9DB1A3311BE385B6009E0FD6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9DB1A3321BE385B6009E0FD6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9DB1A3331BE385B6009E0FD6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9DB1A3341BE385B6009E0FD6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9DB1A3351BE385B6009E0FD6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9DB1A3361BE385B6009E0FD6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9DB1A3371BE385B6009E0FD6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9DB1A3381BE385B6009E0FD6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9DB1A3391BE385B6009E0FD6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9DB1A33A1BE385B6009E0FD6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9DB1A3401BE3902B009E0FD6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9DB1A3421BE391F9009E0FD6 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		9DB1A3431BE391F9009E0FD6 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		9DB1A3461BE3969B009E0FD6 /* 02-arenas-negras.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "02-arenas-negras.gpx"; sourceTree = "<group>"; };
+		9DB1A3471BE3969B009E0FD6 /* 02-arenas-negras.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "02-arenas-negras.kml"; sourceTree = "<group>"; };
+		9DB1A3481BE3969B009E0FD6 /* 03-roques-garcia.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "03-roques-garcia.gpx"; sourceTree = "<group>"; };
+		9DB1A3491BE3969B009E0FD6 /* 03-roques-garcia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "03-roques-garcia.kml"; sourceTree = "<group>"; };
+		9DB1A34A1BE3969B009E0FD6 /* 07-montana-blanca.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "07-montana-blanca.gpx"; sourceTree = "<group>"; };
+		9DB1A34B1BE3969B009E0FD6 /* 07-montana-blanca.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "07-montana-blanca.kml"; sourceTree = "<group>"; };
+		9DB1A34C1BE3969B009E0FD6 /* 14-alto-de-guamaso.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "14-alto-de-guamaso.gpx"; sourceTree = "<group>"; };
+		9DB1A34D1BE3969B009E0FD6 /* 14-alto-de-guamaso.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "14-alto-de-guamaso.kml"; sourceTree = "<group>"; };
+		9DB1A34E1BE3969B009E0FD6 /* 16-el-sanatorio.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "16-el-sanatorio.gpx"; sourceTree = "<group>"; };
+		9DB1A34F1BE3969B009E0FD6 /* 16-el-sanatorio.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "16-el-sanatorio.kml"; sourceTree = "<group>"; };
+		9DB1A3501BE3969B009E0FD6 /* 19-majua.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "19-majua.gpx"; sourceTree = "<group>"; };
+		9DB1A3511BE3969B009E0FD6 /* 19-majua.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "19-majua.kml"; sourceTree = "<group>"; };
+		9DB1A3521BE3969B009E0FD6 /* afur-playa-tamadite.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "afur-playa-tamadite.gpx"; sourceTree = "<group>"; };
+		9DB1A3531BE3969B009E0FD6 /* afur-playa-tamadite.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "afur-playa-tamadite.kml"; sourceTree = "<group>"; };
+		9DB1A3541BE3969B009E0FD6 /* antequera.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = antequera.gpx; sourceTree = "<group>"; };
+		9DB1A3551BE3969B009E0FD6 /* antequera.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = antequera.kml; sourceTree = "<group>"; };
+		9DB1A3561BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx"; sourceTree = "<group>"; };
+		9DB1A3571BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml"; sourceTree = "<group>"; };
+		9DB1A3581BE3969B009E0FD6 /* BDRutas */ = {isa = PBXFileReference; lastKnownFileType = file; path = BDRutas; sourceTree = "<group>"; };
+		9DB1A3591BE3969B009E0FD6 /* chavao.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = chavao.gpx; sourceTree = "<group>"; };
+		9DB1A35A1BE3969B009E0FD6 /* chavao.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = chavao.kml; sourceTree = "<group>"; };
+		9DB1A35B1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "circular-los-brezos-sl-tf-294.gpx"; sourceTree = "<group>"; };
+		9DB1A35C1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "circular-los-brezos-sl-tf-294.kml"; sourceTree = "<group>"; };
+		9DB1A35D1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "corral-del-nino-mal-abrigo-sendero-no21.gpx"; sourceTree = "<group>"; };
+		9DB1A35E1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "corral-del-nino-mal-abrigo-sendero-no21.kml"; sourceTree = "<group>"; };
+		9DB1A35F1BE3969B009E0FD6 /* Descenso+barranco+Masca.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Descenso+barranco+Masca.gpx"; sourceTree = "<group>"; };
+		9DB1A3601BE3969B009E0FD6 /* Descenso+barranco+Masca.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Descenso+barranco+Masca.kml"; sourceTree = "<group>"; };
+		9DB1A3611BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "el-filo-sendero-8-p-n-del-teide.gpx"; sourceTree = "<group>"; };
+		9DB1A3621BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "el-filo-sendero-8-p-n-del-teide.kml"; sourceTree = "<group>"; };
+		9DB1A3631BE3969B009E0FD6 /* GR 131 Etapa 1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 1.gpx"; sourceTree = "<group>"; };
+		9DB1A3641BE3969B009E0FD6 /* GR 131 Etapa 1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 1.kml"; sourceTree = "<group>"; };
+		9DB1A3651BE3969B009E0FD6 /* GR 131 Etapa 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 2.gpx"; sourceTree = "<group>"; };
+		9DB1A3661BE3969B009E0FD6 /* GR 131 Etapa 2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 2.kml"; sourceTree = "<group>"; };
+		9DB1A3671BE3969B009E0FD6 /* GR 131 Etapa 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 3.gpx"; sourceTree = "<group>"; };
+		9DB1A3681BE3969B009E0FD6 /* GR 131 Etapa 3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 3.kml"; sourceTree = "<group>"; };
+		9DB1A3691BE3969B009E0FD6 /* GR 131 Etapa 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 4.gpx"; sourceTree = "<group>"; };
+		9DB1A36A1BE3969B009E0FD6 /* GR 131 Etapa 4.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 4.kml"; sourceTree = "<group>"; };
+		9DB1A36B1BE3969B009E0FD6 /* GR 131 Etapa 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 5.gpx"; sourceTree = "<group>"; };
+		9DB1A36C1BE3969B009E0FD6 /* GR 131 Etapa 5.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131 Etapa 5.kml"; sourceTree = "<group>"; };
+		9DB1A36D1BE3969B009E0FD6 /* GR 131.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131.1.gpx"; sourceTree = "<group>"; };
+		9DB1A36E1BE3969B009E0FD6 /* GR 131.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GR 131.1.kml"; sourceTree = "<group>"; };
+		9DB1A36F1BE3969B009E0FD6 /* igueque-sendero-no17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "igueque-sendero-no17.gpx"; sourceTree = "<group>"; };
+		9DB1A3701BE3969B009E0FD6 /* igueque-sendero-no17.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "igueque-sendero-no17.kml"; sourceTree = "<group>"; };
+		9DB1A3711BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "la-mesa-araya-igueste-sl-tf-296.gpx"; sourceTree = "<group>"; };
+		9DB1A3721BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "la-mesa-araya-igueste-sl-tf-296.kml"; sourceTree = "<group>"; };
+		9DB1A3731BE3969B009E0FD6 /* las-hiedras-circular.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "las-hiedras-circular.gpx"; sourceTree = "<group>"; };
+		9DB1A3741BE3969B009E0FD6 /* las-hiedras-circular.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "las-hiedras-circular.kml"; sourceTree = "<group>"; };
+		9DB1A3751BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "las-lagunetas-barranco-hondo.gpx"; sourceTree = "<group>"; };
+		9DB1A3761BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "las-lagunetas-barranco-hondo.kml"; sourceTree = "<group>"; };
+		9DB1A3771BE3969B009E0FD6 /* lsl-tf-60.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lsl-tf-60.gpx"; sourceTree = "<group>"; };
+		9DB1A3781BE3969B009E0FD6 /* lsl-tf-60.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lsl-tf-60.kml"; sourceTree = "<group>"; };
+		9DB1A3791BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "paque-nacional-del-teide-sendero-no13-samara.gpx"; sourceTree = "<group>"; };
+		9DB1A37A1BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "paque-nacional-del-teide-sendero-no13-samara.kml"; sourceTree = "<group>"; };
+		9DB1A37B1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "parque-nacional-del-teide-volcan-de-fasnia-.gpx"; sourceTree = "<group>"; };
+		9DB1A37C1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "parque-nacional-del-teide-volcan-de-fasnia-.kml"; sourceTree = "<group>"; };
+		9DB1A37D1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx"; sourceTree = "<group>"; };
+		9DB1A37E1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml"; sourceTree = "<group>"; };
+		9DB1A37F1BE3969B009E0FD6 /* PR-TF 10.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 10.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3801BE3969B009E0FD6 /* PR-TF 10.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 10.1.kml"; sourceTree = "<group>"; };
+		9DB1A3811BE3969B009E0FD6 /* PR-TF 10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 10.gpx"; sourceTree = "<group>"; };
+		9DB1A3821BE3969B009E0FD6 /* PR-TF 10.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 10.kml"; sourceTree = "<group>"; };
+		9DB1A3831BE3969B009E0FD6 /* PR-TF 35.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3841BE3969B009E0FD6 /* PR-TF 35.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.1.kml"; sourceTree = "<group>"; };
+		9DB1A3851BE3969B009E0FD6 /* PR-TF 35.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3861BE3969B009E0FD6 /* PR-TF 35.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.2.kml"; sourceTree = "<group>"; };
+		9DB1A3871BE3969B009E0FD6 /* PR-TF 35.3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.3.gpx"; sourceTree = "<group>"; };
+		9DB1A3881BE3969B009E0FD6 /* PR-TF 35.3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.3.kml"; sourceTree = "<group>"; };
+		9DB1A3891BE3969B009E0FD6 /* PR-TF 35.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.gpx"; sourceTree = "<group>"; };
+		9DB1A38A1BE3969B009E0FD6 /* PR-TF 35.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 35.kml"; sourceTree = "<group>"; };
+		9DB1A38B1BE3969B009E0FD6 /* PR-TF 40.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 40.1.gpx"; sourceTree = "<group>"; };
+		9DB1A38C1BE3969B009E0FD6 /* PR-TF 40.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 40.1.kml"; sourceTree = "<group>"; };
+		9DB1A38D1BE3969B009E0FD6 /* PR-TF 40.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 40.gpx"; sourceTree = "<group>"; };
+		9DB1A38E1BE3969B009E0FD6 /* PR-TF 40.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 40.kml"; sourceTree = "<group>"; };
+		9DB1A38F1BE3969B009E0FD6 /* PR-TF 43.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3901BE3969B009E0FD6 /* PR-TF 43.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.1.kml"; sourceTree = "<group>"; };
+		9DB1A3911BE3969B009E0FD6 /* PR-TF 43.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3921BE3969B009E0FD6 /* PR-TF 43.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.2.kml"; sourceTree = "<group>"; };
+		9DB1A3931BE3969B009E0FD6 /* PR-TF 43.3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.3.gpx"; sourceTree = "<group>"; };
+		9DB1A3941BE3969B009E0FD6 /* PR-TF 43.3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.3.kml"; sourceTree = "<group>"; };
+		9DB1A3951BE3969B009E0FD6 /* PR-TF 43.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.gpx"; sourceTree = "<group>"; };
+		9DB1A3961BE3969B009E0FD6 /* PR-TF 43.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 43.kml"; sourceTree = "<group>"; };
+		9DB1A3971BE3969B009E0FD6 /* PR-TF 5.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 5.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3981BE3969B009E0FD6 /* PR-TF 5.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 5.1.kml"; sourceTree = "<group>"; };
+		9DB1A3991BE3969B009E0FD6 /* PR-TF 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 5.gpx"; sourceTree = "<group>"; };
+		9DB1A39A1BE3969B009E0FD6 /* PR-TF 5.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 5.kml"; sourceTree = "<group>"; };
+		9DB1A39B1BE3969B009E0FD6 /* PR-TF 51.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 51.gpx"; sourceTree = "<group>"; };
+		9DB1A39C1BE3969B009E0FD6 /* PR-TF 51.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 51.kml"; sourceTree = "<group>"; };
+		9DB1A39D1BE3969B009E0FD6 /* PR-TF 52.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.1.gpx"; sourceTree = "<group>"; };
+		9DB1A39E1BE3969B009E0FD6 /* PR-TF 52.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.1.kml"; sourceTree = "<group>"; };
+		9DB1A39F1BE3969B009E0FD6 /* PR-TF 52.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3A01BE3969B009E0FD6 /* PR-TF 52.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.2.kml"; sourceTree = "<group>"; };
+		9DB1A3A11BE3969B009E0FD6 /* PR-TF 52.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.gpx"; sourceTree = "<group>"; };
+		9DB1A3A21BE3969B009E0FD6 /* PR-TF 52.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 52.kml"; sourceTree = "<group>"; };
+		9DB1A3A31BE3969B009E0FD6 /* PR-TF 53.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 53.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3A41BE3969B009E0FD6 /* PR-TF 53.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 53.1.kml"; sourceTree = "<group>"; };
+		9DB1A3A51BE3969B009E0FD6 /* PR-TF 53.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 53.gpx"; sourceTree = "<group>"; };
+		9DB1A3A61BE3969B009E0FD6 /* PR-TF 53.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 53.kml"; sourceTree = "<group>"; };
+		9DB1A3A71BE3969B009E0FD6 /* PR-TF 54.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 54.gpx"; sourceTree = "<group>"; };
+		9DB1A3A81BE3969B009E0FD6 /* PR-TF 54.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 54.kml"; sourceTree = "<group>"; };
+		9DB1A3A91BE3969B009E0FD6 /* PR-TF 55.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 55.gpx"; sourceTree = "<group>"; };
+		9DB1A3AA1BE3969B009E0FD6 /* PR-TF 55.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 55.kml"; sourceTree = "<group>"; };
+		9DB1A3AB1BE3969B009E0FD6 /* PR-TF 56.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 56.gpx"; sourceTree = "<group>"; };
+		9DB1A3AC1BE3969B009E0FD6 /* PR-TF 56.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 56.kml"; sourceTree = "<group>"; };
+		9DB1A3AD1BE3969B009E0FD6 /* PR-TF 57.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 57.gpx"; sourceTree = "<group>"; };
+		9DB1A3AE1BE3969C009E0FD6 /* PR-TF 57.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 57.kml"; sourceTree = "<group>"; };
+		9DB1A3AF1BE3969C009E0FD6 /* PR-TF 58.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 58.gpx"; sourceTree = "<group>"; };
+		9DB1A3B01BE3969C009E0FD6 /* PR-TF 58.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 58.kml"; sourceTree = "<group>"; };
+		9DB1A3B11BE3969C009E0FD6 /* PR-TF 59.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 59.gpx"; sourceTree = "<group>"; };
+		9DB1A3B21BE3969C009E0FD6 /* PR-TF 59.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 59.kml"; sourceTree = "<group>"; };
+		9DB1A3B31BE3969C009E0FD6 /* PR-TF 65.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 65.gpx"; sourceTree = "<group>"; };
+		9DB1A3B41BE3969C009E0FD6 /* PR-TF 65.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 65.kml"; sourceTree = "<group>"; };
+		9DB1A3B51BE3969C009E0FD6 /* PR-TF 70.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3B61BE3969C009E0FD6 /* PR-TF 70.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.1.kml"; sourceTree = "<group>"; };
+		9DB1A3B71BE3969C009E0FD6 /* PR-TF 70.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3B81BE3969C009E0FD6 /* PR-TF 70.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.2.kml"; sourceTree = "<group>"; };
+		9DB1A3B91BE3969C009E0FD6 /* PR-TF 70.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.gpx"; sourceTree = "<group>"; };
+		9DB1A3BA1BE3969C009E0FD6 /* PR-TF 70.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 70.kml"; sourceTree = "<group>"; };
+		9DB1A3BB1BE3969C009E0FD6 /* PR-TF 72.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 72.gpx"; sourceTree = "<group>"; };
+		9DB1A3BC1BE3969C009E0FD6 /* PR-TF 72.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 72.kml"; sourceTree = "<group>"; };
+		9DB1A3BD1BE3969C009E0FD6 /* PR-TF 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 8.gpx"; sourceTree = "<group>"; };
+		9DB1A3BE1BE3969C009E0FD6 /* PR-TF 8.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 8.kml"; sourceTree = "<group>"; };
+		9DB1A3BF1BE3969C009E0FD6 /* PR-TF 83.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3C01BE3969C009E0FD6 /* PR-TF 83.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.1.kml"; sourceTree = "<group>"; };
+		9DB1A3C11BE3969C009E0FD6 /* PR-TF 83.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3C21BE3969C009E0FD6 /* PR-TF 83.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.2.kml"; sourceTree = "<group>"; };
+		9DB1A3C31BE3969C009E0FD6 /* PR-TF 83.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.gpx"; sourceTree = "<group>"; };
+		9DB1A3C41BE3969C009E0FD6 /* PR-TF 83.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 83.kml"; sourceTree = "<group>"; };
+		9DB1A3C51BE3969C009E0FD6 /* PR-TF 86.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3C61BE3969C009E0FD6 /* PR-TF 86.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.1.kml"; sourceTree = "<group>"; };
+		9DB1A3C71BE3969C009E0FD6 /* PR-TF 86.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.2.gpx"; sourceTree = "<group>"; };
+		9DB1A3C81BE3969C009E0FD6 /* PR-TF 86.2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.2.kml"; sourceTree = "<group>"; };
+		9DB1A3C91BE3969C009E0FD6 /* PR-TF 86.3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.3.gpx"; sourceTree = "<group>"; };
+		9DB1A3CA1BE3969C009E0FD6 /* PR-TF 86.3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.3.kml"; sourceTree = "<group>"; };
+		9DB1A3CB1BE3969C009E0FD6 /* PR-TF 86.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.gpx"; sourceTree = "<group>"; };
+		9DB1A3CC1BE3969C009E0FD6 /* PR-TF 86.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PR-TF 86.kml"; sourceTree = "<group>"; };
+		9DB1A3CD1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx"; sourceTree = "<group>"; };
+		9DB1A3CE1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml"; sourceTree = "<group>"; };
+		9DB1A3CF1BE3969C009E0FD6 /* pr-tf-12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-12.gpx"; sourceTree = "<group>"; };
+		9DB1A3D01BE3969C009E0FD6 /* pr-tf-12.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-12.kml"; sourceTree = "<group>"; };
+		9DB1A3D11BE3969C009E0FD6 /* pr-tf-121.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-121.gpx"; sourceTree = "<group>"; };
+		9DB1A3D21BE3969C009E0FD6 /* pr-tf-121.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-121.kml"; sourceTree = "<group>"; };
+		9DB1A3D31BE3969C009E0FD6 /* pr-tf-122.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-122.gpx"; sourceTree = "<group>"; };
+		9DB1A3D41BE3969C009E0FD6 /* pr-tf-122.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-122.kml"; sourceTree = "<group>"; };
+		9DB1A3D51BE3969C009E0FD6 /* pr-tf-3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-3.gpx"; sourceTree = "<group>"; };
+		9DB1A3D61BE3969C009E0FD6 /* pr-tf-3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-3.kml"; sourceTree = "<group>"; };
+		9DB1A3D71BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-41-camino-de-el-campanario.gpx"; sourceTree = "<group>"; };
+		9DB1A3D81BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-41-camino-de-el-campanario.kml"; sourceTree = "<group>"; };
+		9DB1A3D91BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx"; sourceTree = "<group>"; };
+		9DB1A3DA1BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml"; sourceTree = "<group>"; };
+		9DB1A3DB1BE3969C009E0FD6 /* pr-tf-6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-6.gpx"; sourceTree = "<group>"; };
+		9DB1A3DC1BE3969C009E0FD6 /* pr-tf-6.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-6.kml"; sourceTree = "<group>"; };
+		9DB1A3DD1BE3969C009E0FD6 /* pr-tf-61.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-61.gpx"; sourceTree = "<group>"; };
+		9DB1A3DE1BE3969C009E0FD6 /* pr-tf-61.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-61.kml"; sourceTree = "<group>"; };
+		9DB1A3DF1BE3969C009E0FD6 /* pr-tf-62.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-62.gpx"; sourceTree = "<group>"; };
+		9DB1A3E01BE3969C009E0FD6 /* pr-tf-62.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-62.kml"; sourceTree = "<group>"; };
+		9DB1A3E11BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-71-camino-de-teresme_1.gpx"; sourceTree = "<group>"; };
+		9DB1A3E21BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-71-camino-de-teresme_1.kml"; sourceTree = "<group>"; };
+		9DB1A3E31BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-711-boca-del-paso-la-quinta.gpx"; sourceTree = "<group>"; };
+		9DB1A3E41BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-711-boca-del-paso-la-quinta.kml"; sourceTree = "<group>"; };
+		9DB1A3E51BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-712-camino-de-ifonche.gpx"; sourceTree = "<group>"; };
+		9DB1A3E61BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-712-camino-de-ifonche.kml"; sourceTree = "<group>"; };
+		9DB1A3E71BE3969C009E0FD6 /* pr-tf-9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-9.gpx"; sourceTree = "<group>"; };
+		9DB1A3E81BE3969C009E0FD6 /* pr-tf-9.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf-9.kml"; sourceTree = "<group>"; };
+		9DB1A3E91BE3969C009E0FD6 /* pr-tf2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf2.gpx"; sourceTree = "<group>"; };
+		9DB1A3EA1BE3969C009E0FD6 /* pr-tf2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pr-tf2.kml"; sourceTree = "<group>"; };
+		9DB1A3EB1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx"; sourceTree = "<group>"; };
+		9DB1A3EC1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml"; sourceTree = "<group>"; };
+		9DB1A3ED1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ruta-de-los-almendros-sl-tf.gpx"; sourceTree = "<group>"; };
+		9DB1A3EE1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ruta-de-los-almendros-sl-tf.kml"; sourceTree = "<group>"; };
+		9DB1A3EF1BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "samarinescandelaria-sl-tf-292.gpx"; sourceTree = "<group>"; };
+		9DB1A3F01BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "samarinescandelaria-sl-tf-292.kml"; sourceTree = "<group>"; };
+		9DB1A3F11BE3969C009E0FD6 /* SL-TF 81.1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SL-TF 81.1.gpx"; sourceTree = "<group>"; };
+		9DB1A3F21BE3969C009E0FD6 /* SL-TF 81.1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SL-TF 81.1.kml"; sourceTree = "<group>"; };
+		9DB1A3F31BE3969C009E0FD6 /* SL-TF 81.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SL-TF 81.gpx"; sourceTree = "<group>"; };
+		9DB1A3F41BE3969C009E0FD6 /* SL-TF 81.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SL-TF 81.kml"; sourceTree = "<group>"; };
+		9DB1A3F51BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-218-roque-del-conde.gpx"; sourceTree = "<group>"; };
+		9DB1A3F61BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-218-roque-del-conde.kml"; sourceTree = "<group>"; };
+		9DB1A3F71BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-242-circular-las-vegas.gpx"; sourceTree = "<group>"; };
+		9DB1A3F81BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-242-circular-las-vegas.kml"; sourceTree = "<group>"; };
+		9DB1A3F91BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-296-1-barranco-el-rincon.gpx"; sourceTree = "<group>"; };
+		9DB1A3FA1BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-296-1-barranco-el-rincon.kml"; sourceTree = "<group>"; };
+		9DB1A3FB1BE3969C009E0FD6 /* sl-tf-60.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-60.gpx"; sourceTree = "<group>"; };
+		9DB1A3FC1BE3969C009E0FD6 /* sl-tf-60.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-60.kml"; sourceTree = "<group>"; };
+		9DB1A3FD1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-71-camino-de-la-virgen.gpx"; sourceTree = "<group>"; };
+		9DB1A3FE1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sl-tf-71-camino-de-la-virgen.kml"; sourceTree = "<group>"; };
+		9DB1A3FF1BE3969C009E0FD6 /* sombrero_de_chasna_circular.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sombrero_de_chasna_circular.gpx; sourceTree = "<group>"; };
+		9DB1A4001BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sombrero_de_chasna_circular.kml; sourceTree = "<group>"; };
+		9DB1A4011BE3969C009E0FD6 /* teide1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = teide1.gpx; sourceTree = "<group>"; };
+		9DB1A4021BE3969C009E0FD6 /* teide1.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = teide1.kml; sourceTree = "<group>"; };
+		9DB1A4031BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tenerife-barranco-de-ruiz.gpx"; sourceTree = "<group>"; };
+		9DB1A4041BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tenerife-barranco-de-ruiz.kml"; sourceTree = "<group>"; };
+		9DB1A4051BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tenerife-pico-viejo-sendero-no9.gpx"; sourceTree = "<group>"; };
+		9DB1A4061BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tenerife-pico-viejo-sendero-no9.kml"; sourceTree = "<group>"; };
+		9DB1A4071BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tenerife.MalpaisGuimar.gpx; sourceTree = "<group>"; };
+		9DB1A4081BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tenerife.MalpaisGuimar.kml; sourceTree = "<group>"; };
+		9DB1A4091BE3969C009E0FD6 /* tfpr25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tfpr25.gpx; sourceTree = "<group>"; };
+		9DB1A40A1BE3969C009E0FD6 /* tfpr25.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tfpr25.kml; sourceTree = "<group>"; };
+		9DB1A40B1BE3969C009E0FD6 /* ventanas-de-Guimar.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ventanas-de-Guimar.gpx"; sourceTree = "<group>"; };
+		9DB1A40C1BE3969C009E0FD6 /* ventanas-de-Guimar.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ventanas-de-Guimar.kml"; sourceTree = "<group>"; };
+		9DB1A4D41BE3ABD8009E0FD6 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		9DB1A4D51BE3ABD8009E0FD6 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		B8727CC526ACB733836C39E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DDDF64A23B71FCEE662F798B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +486,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB1A3411BE3902B009E0FD6 /* libsqlite3.tbd in Frameworks */,
 				9D185CE21BE26A23005AFBC1 /* Foundation.framework in Frameworks */,
 				595A37F6A157DA0CB3F11742 /* libPods.a in Frameworks */,
 			);
@@ -89,6 +512,7 @@
 		1E2269820B3F12859B5C73B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DB1A3401BE3902B009E0FD6 /* libsqlite3.tbd */,
 				9D185CE11BE26A23005AFBC1 /* Foundation.framework */,
 				DDDF64A23B71FCEE662F798B /* libPods.a */,
 			);
@@ -120,6 +544,8 @@
 		9D185C6E1BE24602005AFBC1 /* RutasDeTenerife */ = {
 			isa = PBXGroup;
 			children = (
+				9DB1A3451BE3969B009E0FD6 /* assets */,
+				9DB1A32F1BE385B6009E0FD6 /* fmdb */,
 				9D185C721BE24602005AFBC1 /* AppDelegate.h */,
 				9D185C731BE24602005AFBC1 /* AppDelegate.m */,
 				9D185C751BE24602005AFBC1 /* ViewController.h */,
@@ -129,6 +555,10 @@
 				9D185C7D1BE24602005AFBC1 /* LaunchScreen.storyboard */,
 				9D185C801BE24602005AFBC1 /* Info.plist */,
 				9D185C6F1BE24602005AFBC1 /* Supporting Files */,
+				9DB1A3421BE391F9009E0FD6 /* Database.h */,
+				9DB1A3431BE391F9009E0FD6 /* Database.m */,
+				9DB1A4D41BE3ABD8009E0FD6 /* Route.h */,
+				9DB1A4D51BE3ABD8009E0FD6 /* Route.m */,
 			);
 			path = RutasDeTenerife;
 			sourceTree = "<group>";
@@ -157,6 +587,230 @@
 				9D185C961BE24602005AFBC1 /* Info.plist */,
 			);
 			path = RutasDeTenerifeUITests;
+			sourceTree = "<group>";
+		};
+		9DB1A32F1BE385B6009E0FD6 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				9DB1A3301BE385B6009E0FD6 /* FMDatabase.h */,
+				9DB1A3311BE385B6009E0FD6 /* FMDatabase.m */,
+				9DB1A3321BE385B6009E0FD6 /* FMDatabaseAdditions.h */,
+				9DB1A3331BE385B6009E0FD6 /* FMDatabaseAdditions.m */,
+				9DB1A3341BE385B6009E0FD6 /* FMDatabasePool.h */,
+				9DB1A3351BE385B6009E0FD6 /* FMDatabasePool.m */,
+				9DB1A3361BE385B6009E0FD6 /* FMDatabaseQueue.h */,
+				9DB1A3371BE385B6009E0FD6 /* FMDatabaseQueue.m */,
+				9DB1A3381BE385B6009E0FD6 /* FMDB.h */,
+				9DB1A3391BE385B6009E0FD6 /* FMResultSet.h */,
+				9DB1A33A1BE385B6009E0FD6 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		9DB1A3451BE3969B009E0FD6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9DB1A3461BE3969B009E0FD6 /* 02-arenas-negras.gpx */,
+				9DB1A3471BE3969B009E0FD6 /* 02-arenas-negras.kml */,
+				9DB1A3481BE3969B009E0FD6 /* 03-roques-garcia.gpx */,
+				9DB1A3491BE3969B009E0FD6 /* 03-roques-garcia.kml */,
+				9DB1A34A1BE3969B009E0FD6 /* 07-montana-blanca.gpx */,
+				9DB1A34B1BE3969B009E0FD6 /* 07-montana-blanca.kml */,
+				9DB1A34C1BE3969B009E0FD6 /* 14-alto-de-guamaso.gpx */,
+				9DB1A34D1BE3969B009E0FD6 /* 14-alto-de-guamaso.kml */,
+				9DB1A34E1BE3969B009E0FD6 /* 16-el-sanatorio.gpx */,
+				9DB1A34F1BE3969B009E0FD6 /* 16-el-sanatorio.kml */,
+				9DB1A3501BE3969B009E0FD6 /* 19-majua.gpx */,
+				9DB1A3511BE3969B009E0FD6 /* 19-majua.kml */,
+				9DB1A3521BE3969B009E0FD6 /* afur-playa-tamadite.gpx */,
+				9DB1A3531BE3969B009E0FD6 /* afur-playa-tamadite.kml */,
+				9DB1A3541BE3969B009E0FD6 /* antequera.gpx */,
+				9DB1A3551BE3969B009E0FD6 /* antequera.kml */,
+				9DB1A3561BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx */,
+				9DB1A3571BE3969B009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml */,
+				9DB1A3581BE3969B009E0FD6 /* BDRutas */,
+				9DB1A3591BE3969B009E0FD6 /* chavao.gpx */,
+				9DB1A35A1BE3969B009E0FD6 /* chavao.kml */,
+				9DB1A35B1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.gpx */,
+				9DB1A35C1BE3969B009E0FD6 /* circular-los-brezos-sl-tf-294.kml */,
+				9DB1A35D1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx */,
+				9DB1A35E1BE3969B009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.kml */,
+				9DB1A35F1BE3969B009E0FD6 /* Descenso+barranco+Masca.gpx */,
+				9DB1A3601BE3969B009E0FD6 /* Descenso+barranco+Masca.kml */,
+				9DB1A3611BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx */,
+				9DB1A3621BE3969B009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml */,
+				9DB1A3631BE3969B009E0FD6 /* GR 131 Etapa 1.gpx */,
+				9DB1A3641BE3969B009E0FD6 /* GR 131 Etapa 1.kml */,
+				9DB1A3651BE3969B009E0FD6 /* GR 131 Etapa 2.gpx */,
+				9DB1A3661BE3969B009E0FD6 /* GR 131 Etapa 2.kml */,
+				9DB1A3671BE3969B009E0FD6 /* GR 131 Etapa 3.gpx */,
+				9DB1A3681BE3969B009E0FD6 /* GR 131 Etapa 3.kml */,
+				9DB1A3691BE3969B009E0FD6 /* GR 131 Etapa 4.gpx */,
+				9DB1A36A1BE3969B009E0FD6 /* GR 131 Etapa 4.kml */,
+				9DB1A36B1BE3969B009E0FD6 /* GR 131 Etapa 5.gpx */,
+				9DB1A36C1BE3969B009E0FD6 /* GR 131 Etapa 5.kml */,
+				9DB1A36D1BE3969B009E0FD6 /* GR 131.1.gpx */,
+				9DB1A36E1BE3969B009E0FD6 /* GR 131.1.kml */,
+				9DB1A36F1BE3969B009E0FD6 /* igueque-sendero-no17.gpx */,
+				9DB1A3701BE3969B009E0FD6 /* igueque-sendero-no17.kml */,
+				9DB1A3711BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx */,
+				9DB1A3721BE3969B009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.kml */,
+				9DB1A3731BE3969B009E0FD6 /* las-hiedras-circular.gpx */,
+				9DB1A3741BE3969B009E0FD6 /* las-hiedras-circular.kml */,
+				9DB1A3751BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.gpx */,
+				9DB1A3761BE3969B009E0FD6 /* las-lagunetas-barranco-hondo.kml */,
+				9DB1A3771BE3969B009E0FD6 /* lsl-tf-60.gpx */,
+				9DB1A3781BE3969B009E0FD6 /* lsl-tf-60.kml */,
+				9DB1A3791BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx */,
+				9DB1A37A1BE3969B009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml */,
+				9DB1A37B1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx */,
+				9DB1A37C1BE3969B009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml */,
+				9DB1A37D1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx */,
+				9DB1A37E1BE3969B009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml */,
+				9DB1A37F1BE3969B009E0FD6 /* PR-TF 10.1.gpx */,
+				9DB1A3801BE3969B009E0FD6 /* PR-TF 10.1.kml */,
+				9DB1A3811BE3969B009E0FD6 /* PR-TF 10.gpx */,
+				9DB1A3821BE3969B009E0FD6 /* PR-TF 10.kml */,
+				9DB1A3831BE3969B009E0FD6 /* PR-TF 35.1.gpx */,
+				9DB1A3841BE3969B009E0FD6 /* PR-TF 35.1.kml */,
+				9DB1A3851BE3969B009E0FD6 /* PR-TF 35.2.gpx */,
+				9DB1A3861BE3969B009E0FD6 /* PR-TF 35.2.kml */,
+				9DB1A3871BE3969B009E0FD6 /* PR-TF 35.3.gpx */,
+				9DB1A3881BE3969B009E0FD6 /* PR-TF 35.3.kml */,
+				9DB1A3891BE3969B009E0FD6 /* PR-TF 35.gpx */,
+				9DB1A38A1BE3969B009E0FD6 /* PR-TF 35.kml */,
+				9DB1A38B1BE3969B009E0FD6 /* PR-TF 40.1.gpx */,
+				9DB1A38C1BE3969B009E0FD6 /* PR-TF 40.1.kml */,
+				9DB1A38D1BE3969B009E0FD6 /* PR-TF 40.gpx */,
+				9DB1A38E1BE3969B009E0FD6 /* PR-TF 40.kml */,
+				9DB1A38F1BE3969B009E0FD6 /* PR-TF 43.1.gpx */,
+				9DB1A3901BE3969B009E0FD6 /* PR-TF 43.1.kml */,
+				9DB1A3911BE3969B009E0FD6 /* PR-TF 43.2.gpx */,
+				9DB1A3921BE3969B009E0FD6 /* PR-TF 43.2.kml */,
+				9DB1A3931BE3969B009E0FD6 /* PR-TF 43.3.gpx */,
+				9DB1A3941BE3969B009E0FD6 /* PR-TF 43.3.kml */,
+				9DB1A3951BE3969B009E0FD6 /* PR-TF 43.gpx */,
+				9DB1A3961BE3969B009E0FD6 /* PR-TF 43.kml */,
+				9DB1A3971BE3969B009E0FD6 /* PR-TF 5.1.gpx */,
+				9DB1A3981BE3969B009E0FD6 /* PR-TF 5.1.kml */,
+				9DB1A3991BE3969B009E0FD6 /* PR-TF 5.gpx */,
+				9DB1A39A1BE3969B009E0FD6 /* PR-TF 5.kml */,
+				9DB1A39B1BE3969B009E0FD6 /* PR-TF 51.gpx */,
+				9DB1A39C1BE3969B009E0FD6 /* PR-TF 51.kml */,
+				9DB1A39D1BE3969B009E0FD6 /* PR-TF 52.1.gpx */,
+				9DB1A39E1BE3969B009E0FD6 /* PR-TF 52.1.kml */,
+				9DB1A39F1BE3969B009E0FD6 /* PR-TF 52.2.gpx */,
+				9DB1A3A01BE3969B009E0FD6 /* PR-TF 52.2.kml */,
+				9DB1A3A11BE3969B009E0FD6 /* PR-TF 52.gpx */,
+				9DB1A3A21BE3969B009E0FD6 /* PR-TF 52.kml */,
+				9DB1A3A31BE3969B009E0FD6 /* PR-TF 53.1.gpx */,
+				9DB1A3A41BE3969B009E0FD6 /* PR-TF 53.1.kml */,
+				9DB1A3A51BE3969B009E0FD6 /* PR-TF 53.gpx */,
+				9DB1A3A61BE3969B009E0FD6 /* PR-TF 53.kml */,
+				9DB1A3A71BE3969B009E0FD6 /* PR-TF 54.gpx */,
+				9DB1A3A81BE3969B009E0FD6 /* PR-TF 54.kml */,
+				9DB1A3A91BE3969B009E0FD6 /* PR-TF 55.gpx */,
+				9DB1A3AA1BE3969B009E0FD6 /* PR-TF 55.kml */,
+				9DB1A3AB1BE3969B009E0FD6 /* PR-TF 56.gpx */,
+				9DB1A3AC1BE3969B009E0FD6 /* PR-TF 56.kml */,
+				9DB1A3AD1BE3969B009E0FD6 /* PR-TF 57.gpx */,
+				9DB1A3AE1BE3969C009E0FD6 /* PR-TF 57.kml */,
+				9DB1A3AF1BE3969C009E0FD6 /* PR-TF 58.gpx */,
+				9DB1A3B01BE3969C009E0FD6 /* PR-TF 58.kml */,
+				9DB1A3B11BE3969C009E0FD6 /* PR-TF 59.gpx */,
+				9DB1A3B21BE3969C009E0FD6 /* PR-TF 59.kml */,
+				9DB1A3B31BE3969C009E0FD6 /* PR-TF 65.gpx */,
+				9DB1A3B41BE3969C009E0FD6 /* PR-TF 65.kml */,
+				9DB1A3B51BE3969C009E0FD6 /* PR-TF 70.1.gpx */,
+				9DB1A3B61BE3969C009E0FD6 /* PR-TF 70.1.kml */,
+				9DB1A3B71BE3969C009E0FD6 /* PR-TF 70.2.gpx */,
+				9DB1A3B81BE3969C009E0FD6 /* PR-TF 70.2.kml */,
+				9DB1A3B91BE3969C009E0FD6 /* PR-TF 70.gpx */,
+				9DB1A3BA1BE3969C009E0FD6 /* PR-TF 70.kml */,
+				9DB1A3BB1BE3969C009E0FD6 /* PR-TF 72.gpx */,
+				9DB1A3BC1BE3969C009E0FD6 /* PR-TF 72.kml */,
+				9DB1A3BD1BE3969C009E0FD6 /* PR-TF 8.gpx */,
+				9DB1A3BE1BE3969C009E0FD6 /* PR-TF 8.kml */,
+				9DB1A3BF1BE3969C009E0FD6 /* PR-TF 83.1.gpx */,
+				9DB1A3C01BE3969C009E0FD6 /* PR-TF 83.1.kml */,
+				9DB1A3C11BE3969C009E0FD6 /* PR-TF 83.2.gpx */,
+				9DB1A3C21BE3969C009E0FD6 /* PR-TF 83.2.kml */,
+				9DB1A3C31BE3969C009E0FD6 /* PR-TF 83.gpx */,
+				9DB1A3C41BE3969C009E0FD6 /* PR-TF 83.kml */,
+				9DB1A3C51BE3969C009E0FD6 /* PR-TF 86.1.gpx */,
+				9DB1A3C61BE3969C009E0FD6 /* PR-TF 86.1.kml */,
+				9DB1A3C71BE3969C009E0FD6 /* PR-TF 86.2.gpx */,
+				9DB1A3C81BE3969C009E0FD6 /* PR-TF 86.2.kml */,
+				9DB1A3C91BE3969C009E0FD6 /* PR-TF 86.3.gpx */,
+				9DB1A3CA1BE3969C009E0FD6 /* PR-TF 86.3.kml */,
+				9DB1A3CB1BE3969C009E0FD6 /* PR-TF 86.gpx */,
+				9DB1A3CC1BE3969C009E0FD6 /* PR-TF 86.kml */,
+				9DB1A3CD1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx */,
+				9DB1A3CE1BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml */,
+				9DB1A3CF1BE3969C009E0FD6 /* pr-tf-12.gpx */,
+				9DB1A3D01BE3969C009E0FD6 /* pr-tf-12.kml */,
+				9DB1A3D11BE3969C009E0FD6 /* pr-tf-121.gpx */,
+				9DB1A3D21BE3969C009E0FD6 /* pr-tf-121.kml */,
+				9DB1A3D31BE3969C009E0FD6 /* pr-tf-122.gpx */,
+				9DB1A3D41BE3969C009E0FD6 /* pr-tf-122.kml */,
+				9DB1A3D51BE3969C009E0FD6 /* pr-tf-3.gpx */,
+				9DB1A3D61BE3969C009E0FD6 /* pr-tf-3.kml */,
+				9DB1A3D71BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx */,
+				9DB1A3D81BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml */,
+				9DB1A3D91BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx */,
+				9DB1A3DA1BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml */,
+				9DB1A3DB1BE3969C009E0FD6 /* pr-tf-6.gpx */,
+				9DB1A3DC1BE3969C009E0FD6 /* pr-tf-6.kml */,
+				9DB1A3DD1BE3969C009E0FD6 /* pr-tf-61.gpx */,
+				9DB1A3DE1BE3969C009E0FD6 /* pr-tf-61.kml */,
+				9DB1A3DF1BE3969C009E0FD6 /* pr-tf-62.gpx */,
+				9DB1A3E01BE3969C009E0FD6 /* pr-tf-62.kml */,
+				9DB1A3E11BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx */,
+				9DB1A3E21BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml */,
+				9DB1A3E31BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx */,
+				9DB1A3E41BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml */,
+				9DB1A3E51BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx */,
+				9DB1A3E61BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml */,
+				9DB1A3E71BE3969C009E0FD6 /* pr-tf-9.gpx */,
+				9DB1A3E81BE3969C009E0FD6 /* pr-tf-9.kml */,
+				9DB1A3E91BE3969C009E0FD6 /* pr-tf2.gpx */,
+				9DB1A3EA1BE3969C009E0FD6 /* pr-tf2.kml */,
+				9DB1A3EB1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx */,
+				9DB1A3EC1BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml */,
+				9DB1A3ED1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx */,
+				9DB1A3EE1BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml */,
+				9DB1A3EF1BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx */,
+				9DB1A3F01BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml */,
+				9DB1A3F11BE3969C009E0FD6 /* SL-TF 81.1.gpx */,
+				9DB1A3F21BE3969C009E0FD6 /* SL-TF 81.1.kml */,
+				9DB1A3F31BE3969C009E0FD6 /* SL-TF 81.gpx */,
+				9DB1A3F41BE3969C009E0FD6 /* SL-TF 81.kml */,
+				9DB1A3F51BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx */,
+				9DB1A3F61BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml */,
+				9DB1A3F71BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx */,
+				9DB1A3F81BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml */,
+				9DB1A3F91BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx */,
+				9DB1A3FA1BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml */,
+				9DB1A3FB1BE3969C009E0FD6 /* sl-tf-60.gpx */,
+				9DB1A3FC1BE3969C009E0FD6 /* sl-tf-60.kml */,
+				9DB1A3FD1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx */,
+				9DB1A3FE1BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml */,
+				9DB1A3FF1BE3969C009E0FD6 /* sombrero_de_chasna_circular.gpx */,
+				9DB1A4001BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml */,
+				9DB1A4011BE3969C009E0FD6 /* teide1.gpx */,
+				9DB1A4021BE3969C009E0FD6 /* teide1.kml */,
+				9DB1A4031BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx */,
+				9DB1A4041BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml */,
+				9DB1A4051BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx */,
+				9DB1A4061BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml */,
+				9DB1A4071BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx */,
+				9DB1A4081BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml */,
+				9DB1A4091BE3969C009E0FD6 /* tfpr25.gpx */,
+				9DB1A40A1BE3969C009E0FD6 /* tfpr25.kml */,
+				9DB1A40B1BE3969C009E0FD6 /* ventanas-de-Guimar.gpx */,
+				9DB1A40C1BE3969C009E0FD6 /* ventanas-de-Guimar.kml */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 		F22874F43E70393D1A9187DD /* Pods */ = {
@@ -238,6 +892,7 @@
 				TargetAttributes = {
 					9D185C6B1BE24602005AFBC1 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N44N5DVD7J;
 					};
 					9D185C841BE24602005AFBC1 = {
 						CreatedOnToolsVersion = 7.1;
@@ -274,9 +929,208 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB1A4221BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.gpx in Resources */,
+				9DB1A4AB1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml in Resources */,
+				9DB1A41F1BE3969C009E0FD6 /* BDRutas in Resources */,
+				9DB1A4371BE3969C009E0FD6 /* igueque-sendero-no17.kml in Resources */,
+				9DB1A4121BE3969C009E0FD6 /* 07-montana-blanca.kml in Resources */,
+				9DB1A4391BE3969C009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.kml in Resources */,
+				9DB1A4791BE3969C009E0FD6 /* PR-TF 59.kml in Resources */,
+				9DB1A4B11BE3969C009E0FD6 /* pr-tf2.kml in Resources */,
+				9DB1A44A1BE3969C009E0FD6 /* PR-TF 35.1.gpx in Resources */,
+				9DB1A4161BE3969C009E0FD6 /* 16-el-sanatorio.kml in Resources */,
+				9DB1A4BD1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml in Resources */,
+				9DB1A4131BE3969C009E0FD6 /* 14-alto-de-guamaso.gpx in Resources */,
+				9DB1A4801BE3969C009E0FD6 /* PR-TF 70.gpx in Resources */,
+				9DB1A48C1BE3969C009E0FD6 /* PR-TF 86.1.gpx in Resources */,
+				9DB1A4BF1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml in Resources */,
+				9DB1A45C1BE3969C009E0FD6 /* PR-TF 43.gpx in Resources */,
+				9DB1A4D31BE3969C009E0FD6 /* ventanas-de-Guimar.kml in Resources */,
+				9DB1A4B61BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx in Resources */,
 				9D185C7F1BE24602005AFBC1 /* LaunchScreen.storyboard in Resources */,
+				9DB1A4C51BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml in Resources */,
+				9DB1A4381BE3969C009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx in Resources */,
+				9DB1A4701BE3969C009E0FD6 /* PR-TF 55.gpx in Resources */,
+				9DB1A4A31BE3969C009E0FD6 /* pr-tf-6.kml in Resources */,
+				9DB1A49F1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml in Resources */,
+				9DB1A4141BE3969C009E0FD6 /* 14-alto-de-guamaso.kml in Resources */,
+				9DB1A49B1BE3969C009E0FD6 /* pr-tf-122.kml in Resources */,
+				9DB1A42D1BE3969C009E0FD6 /* GR 131 Etapa 2.kml in Resources */,
+				9DB1A40E1BE3969C009E0FD6 /* 02-arenas-negras.kml in Resources */,
+				9DB1A4281BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx in Resources */,
+				9DB1A4C31BE3969C009E0FD6 /* sl-tf-60.kml in Resources */,
+				9DB1A4171BE3969C009E0FD6 /* 19-majua.gpx in Resources */,
+				9DB1A42C1BE3969C009E0FD6 /* GR 131 Etapa 2.gpx in Resources */,
+				9DB1A4931BE3969C009E0FD6 /* PR-TF 86.kml in Resources */,
+				9DB1A4BA1BE3969C009E0FD6 /* SL-TF 81.gpx in Resources */,
+				9DB1A4921BE3969C009E0FD6 /* PR-TF 86.gpx in Resources */,
+				9DB1A4251BE3969C009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.kml in Resources */,
+				9DB1A4321BE3969C009E0FD6 /* GR 131 Etapa 5.gpx in Resources */,
+				9DB1A4521BE3969C009E0FD6 /* PR-TF 40.1.gpx in Resources */,
+				9DB1A4111BE3969C009E0FD6 /* 07-montana-blanca.gpx in Resources */,
+				9DB1A4771BE3969C009E0FD6 /* PR-TF 58.kml in Resources */,
+				9DB1A4681BE3969C009E0FD6 /* PR-TF 52.gpx in Resources */,
+				9DB1A4C01BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx in Resources */,
+				9DB1A41C1BE3969C009E0FD6 /* antequera.kml in Resources */,
+				9DB1A4A01BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx in Resources */,
+				9DB1A44F1BE3969C009E0FD6 /* PR-TF 35.3.kml in Resources */,
+				9DB1A4A21BE3969C009E0FD6 /* pr-tf-6.gpx in Resources */,
+				9DB1A4C71BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml in Resources */,
+				9DB1A4B71BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml in Resources */,
+				9DB1A4651BE3969C009E0FD6 /* PR-TF 52.1.kml in Resources */,
+				9DB1A46A1BE3969C009E0FD6 /* PR-TF 53.1.gpx in Resources */,
+				9DB1A4861BE3969C009E0FD6 /* PR-TF 83.1.gpx in Resources */,
+				9DB1A46B1BE3969C009E0FD6 /* PR-TF 53.1.kml in Resources */,
+				9DB1A4C41BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx in Resources */,
+				9DB1A4301BE3969C009E0FD6 /* GR 131 Etapa 4.gpx in Resources */,
+				9DB1A4821BE3969C009E0FD6 /* PR-TF 72.gpx in Resources */,
+				9DB1A47D1BE3969C009E0FD6 /* PR-TF 70.1.kml in Resources */,
+				9DB1A45B1BE3969C009E0FD6 /* PR-TF 43.3.kml in Resources */,
+				9DB1A4CF1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml in Resources */,
+				9DB1A4881BE3969C009E0FD6 /* PR-TF 83.2.gpx in Resources */,
+				9DB1A4551BE3969C009E0FD6 /* PR-TF 40.kml in Resources */,
+				9DB1A45F1BE3969C009E0FD6 /* PR-TF 5.1.kml in Resources */,
+				9DB1A4A81BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx in Resources */,
+				9DB1A4631BE3969C009E0FD6 /* PR-TF 51.kml in Resources */,
+				9DB1A47F1BE3969C009E0FD6 /* PR-TF 70.2.kml in Resources */,
+				9DB1A4C81BE3969C009E0FD6 /* teide1.gpx in Resources */,
+				9DB1A4341BE3969C009E0FD6 /* GR 131.1.gpx in Resources */,
+				9DB1A41B1BE3969C009E0FD6 /* antequera.gpx in Resources */,
+				9DB1A46C1BE3969C009E0FD6 /* PR-TF 53.gpx in Resources */,
+				9DB1A4871BE3969C009E0FD6 /* PR-TF 83.1.kml in Resources */,
+				9DB1A4CB1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml in Resources */,
+				9DB1A4181BE3969C009E0FD6 /* 19-majua.kml in Resources */,
+				9DB1A4D21BE3969C009E0FD6 /* ventanas-de-Guimar.gpx in Resources */,
+				9DB1A43E1BE3969C009E0FD6 /* lsl-tf-60.gpx in Resources */,
+				9DB1A4151BE3969C009E0FD6 /* 16-el-sanatorio.gpx in Resources */,
+				9DB1A42F1BE3969C009E0FD6 /* GR 131 Etapa 3.kml in Resources */,
+				9DB1A47B1BE3969C009E0FD6 /* PR-TF 65.kml in Resources */,
+				9DB1A4231BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.kml in Resources */,
+				9DB1A4361BE3969C009E0FD6 /* igueque-sendero-no17.gpx in Resources */,
+				9DB1A4421BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx in Resources */,
+				9DB1A4841BE3969C009E0FD6 /* PR-TF 8.gpx in Resources */,
+				9DB1A4641BE3969C009E0FD6 /* PR-TF 52.1.gpx in Resources */,
+				9DB1A4A51BE3969C009E0FD6 /* pr-tf-61.kml in Resources */,
+				9DB1A43F1BE3969C009E0FD6 /* lsl-tf-60.kml in Resources */,
+				9DB1A41D1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx in Resources */,
+				9DB1A4721BE3969C009E0FD6 /* PR-TF 56.gpx in Resources */,
+				9DB1A48A1BE3969C009E0FD6 /* PR-TF 83.gpx in Resources */,
+				9DB1A4901BE3969C009E0FD6 /* PR-TF 86.3.gpx in Resources */,
+				9DB1A4C61BE3969C009E0FD6 /* sombrero_de_chasna_circular.gpx in Resources */,
+				9DB1A4571BE3969C009E0FD6 /* PR-TF 43.1.kml in Resources */,
+				9DB1A4D11BE3969C009E0FD6 /* tfpr25.kml in Resources */,
+				9DB1A4241BE3969C009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx in Resources */,
+				9DB1A46D1BE3969C009E0FD6 /* PR-TF 53.kml in Resources */,
+				9DB1A4441BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx in Resources */,
+				9DB1A4471BE3969C009E0FD6 /* PR-TF 10.1.kml in Resources */,
+				9DB1A4211BE3969C009E0FD6 /* chavao.kml in Resources */,
+				9DB1A45D1BE3969C009E0FD6 /* PR-TF 43.kml in Resources */,
+				9DB1A4AC1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx in Resources */,
+				9DB1A41A1BE3969C009E0FD6 /* afur-playa-tamadite.kml in Resources */,
+				9DB1A4BE1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx in Resources */,
+				9DB1A4311BE3969C009E0FD6 /* GR 131 Etapa 4.kml in Resources */,
+				9DB1A4A71BE3969C009E0FD6 /* pr-tf-62.kml in Resources */,
+				9DB1A4461BE3969C009E0FD6 /* PR-TF 10.1.gpx in Resources */,
+				9DB1A43C1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.gpx in Resources */,
+				9DB1A4911BE3969C009E0FD6 /* PR-TF 86.3.kml in Resources */,
+				9DB1A49E1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx in Resources */,
+				9DB1A4AF1BE3969C009E0FD6 /* pr-tf-9.kml in Resources */,
+				9DB1A4271BE3969C009E0FD6 /* Descenso+barranco+Masca.kml in Resources */,
+				9DB1A4B81BE3969C009E0FD6 /* SL-TF 81.1.gpx in Resources */,
+				9DB1A4501BE3969C009E0FD6 /* PR-TF 35.gpx in Resources */,
+				9DB1A4491BE3969C009E0FD6 /* PR-TF 10.kml in Resources */,
+				9DB1A43B1BE3969C009E0FD6 /* las-hiedras-circular.kml in Resources */,
+				9DB1A4BC1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx in Resources */,
+				9DB1A4761BE3969C009E0FD6 /* PR-TF 58.gpx in Resources */,
+				9DB1A46F1BE3969C009E0FD6 /* PR-TF 54.kml in Resources */,
+				9DB1A49D1BE3969C009E0FD6 /* pr-tf-3.kml in Resources */,
+				9DB1A4331BE3969C009E0FD6 /* GR 131 Etapa 5.kml in Resources */,
 				9D185C7C1BE24602005AFBC1 /* Assets.xcassets in Resources */,
+				9DB1A4411BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml in Resources */,
+				9DB1A4C11BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml in Resources */,
+				9DB1A4731BE3969C009E0FD6 /* PR-TF 56.kml in Resources */,
+				9DB1A4B51BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml in Resources */,
+				9DB1A46E1BE3969C009E0FD6 /* PR-TF 54.gpx in Resources */,
+				9DB1A4431BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml in Resources */,
+				9DB1A47E1BE3969C009E0FD6 /* PR-TF 70.2.gpx in Resources */,
+				9DB1A45A1BE3969C009E0FD6 /* PR-TF 43.3.gpx in Resources */,
+				9DB1A4C91BE3969C009E0FD6 /* teide1.kml in Resources */,
+				9DB1A4991BE3969C009E0FD6 /* pr-tf-121.kml in Resources */,
 				9D185C7A1BE24602005AFBC1 /* Main.storyboard in Resources */,
+				9DB1A4CC1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx in Resources */,
+				9DB1A4891BE3969C009E0FD6 /* PR-TF 83.2.kml in Resources */,
+				9DB1A44B1BE3969C009E0FD6 /* PR-TF 35.1.kml in Resources */,
+				9DB1A44C1BE3969C009E0FD6 /* PR-TF 35.2.gpx in Resources */,
+				9DB1A43D1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.kml in Resources */,
+				9DB1A42B1BE3969C009E0FD6 /* GR 131 Etapa 1.kml in Resources */,
+				9DB1A4601BE3969C009E0FD6 /* PR-TF 5.gpx in Resources */,
+				9DB1A42A1BE3969C009E0FD6 /* GR 131 Etapa 1.gpx in Resources */,
+				9DB1A4981BE3969C009E0FD6 /* pr-tf-121.gpx in Resources */,
+				9DB1A4191BE3969C009E0FD6 /* afur-playa-tamadite.gpx in Resources */,
+				9DB1A4741BE3969C009E0FD6 /* PR-TF 57.gpx in Resources */,
+				9DB1A4291BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml in Resources */,
+				9DB1A4961BE3969C009E0FD6 /* pr-tf-12.gpx in Resources */,
+				9DB1A4101BE3969C009E0FD6 /* 03-roques-garcia.kml in Resources */,
+				9DB1A4611BE3969C009E0FD6 /* PR-TF 5.kml in Resources */,
+				9DB1A47C1BE3969C009E0FD6 /* PR-TF 70.1.gpx in Resources */,
+				9DB1A4941BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx in Resources */,
+				9DB1A4481BE3969C009E0FD6 /* PR-TF 10.gpx in Resources */,
+				9DB1A4A41BE3969C009E0FD6 /* pr-tf-61.gpx in Resources */,
+				9DB1A49A1BE3969C009E0FD6 /* pr-tf-122.gpx in Resources */,
+				9DB1A4A91BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml in Resources */,
+				9DB1A4A11BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml in Resources */,
+				9DB1A48E1BE3969C009E0FD6 /* PR-TF 86.2.gpx in Resources */,
+				9DB1A45E1BE3969C009E0FD6 /* PR-TF 5.1.gpx in Resources */,
+				9DB1A4831BE3969C009E0FD6 /* PR-TF 72.kml in Resources */,
+				9DB1A4971BE3969C009E0FD6 /* pr-tf-12.kml in Resources */,
+				9DB1A4CA1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx in Resources */,
+				9DB1A4531BE3969C009E0FD6 /* PR-TF 40.1.kml in Resources */,
+				9DB1A4541BE3969C009E0FD6 /* PR-TF 40.gpx in Resources */,
+				9DB1A4C21BE3969C009E0FD6 /* sl-tf-60.gpx in Resources */,
+				9DB1A4B01BE3969C009E0FD6 /* pr-tf2.gpx in Resources */,
+				9DB1A4591BE3969C009E0FD6 /* PR-TF 43.2.kml in Resources */,
+				9DB1A4BB1BE3969C009E0FD6 /* SL-TF 81.kml in Resources */,
+				9DB1A4401BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx in Resources */,
+				9DB1A4691BE3969C009E0FD6 /* PR-TF 52.kml in Resources */,
+				9DB1A4951BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml in Resources */,
+				9DB1A4CE1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx in Resources */,
+				9DB1A4451BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml in Resources */,
+				9DB1A4851BE3969C009E0FD6 /* PR-TF 8.kml in Resources */,
+				9DB1A4261BE3969C009E0FD6 /* Descenso+barranco+Masca.gpx in Resources */,
+				9DB1A43A1BE3969C009E0FD6 /* las-hiedras-circular.gpx in Resources */,
+				9DB1A4511BE3969C009E0FD6 /* PR-TF 35.kml in Resources */,
+				9DB1A48F1BE3969C009E0FD6 /* PR-TF 86.2.kml in Resources */,
+				9DB1A4D01BE3969C009E0FD6 /* tfpr25.gpx in Resources */,
+				9DB1A4811BE3969C009E0FD6 /* PR-TF 70.kml in Resources */,
+				9DB1A48B1BE3969C009E0FD6 /* PR-TF 83.kml in Resources */,
+				9DB1A4AE1BE3969C009E0FD6 /* pr-tf-9.gpx in Resources */,
+				9DB1A4AA1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx in Resources */,
+				9DB1A4621BE3969C009E0FD6 /* PR-TF 51.gpx in Resources */,
+				9DB1A4661BE3969C009E0FD6 /* PR-TF 52.2.gpx in Resources */,
+				9DB1A4581BE3969C009E0FD6 /* PR-TF 43.2.gpx in Resources */,
+				9DB1A4671BE3969C009E0FD6 /* PR-TF 52.2.kml in Resources */,
+				9DB1A40F1BE3969C009E0FD6 /* 03-roques-garcia.gpx in Resources */,
+				9DB1A4B41BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx in Resources */,
+				9DB1A4781BE3969C009E0FD6 /* PR-TF 59.gpx in Resources */,
+				9DB1A4CD1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml in Resources */,
+				9DB1A4351BE3969C009E0FD6 /* GR 131.1.kml in Resources */,
+				9DB1A4751BE3969C009E0FD6 /* PR-TF 57.kml in Resources */,
+				9DB1A4B31BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml in Resources */,
+				9DB1A41E1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml in Resources */,
+				9DB1A4711BE3969C009E0FD6 /* PR-TF 55.kml in Resources */,
+				9DB1A4201BE3969C009E0FD6 /* chavao.gpx in Resources */,
+				9DB1A4A61BE3969C009E0FD6 /* pr-tf-62.gpx in Resources */,
+				9DB1A44D1BE3969C009E0FD6 /* PR-TF 35.2.kml in Resources */,
+				9DB1A4561BE3969C009E0FD6 /* PR-TF 43.1.gpx in Resources */,
+				9DB1A42E1BE3969C009E0FD6 /* GR 131 Etapa 3.gpx in Resources */,
+				9DB1A40D1BE3969C009E0FD6 /* 02-arenas-negras.gpx in Resources */,
+				9DB1A4B21BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx in Resources */,
+				9DB1A47A1BE3969C009E0FD6 /* PR-TF 65.gpx in Resources */,
+				9DB1A4AD1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml in Resources */,
+				9DB1A48D1BE3969C009E0FD6 /* PR-TF 86.1.kml in Resources */,
+				9DB1A49C1BE3969C009E0FD6 /* pr-tf-3.gpx in Resources */,
+				9DB1A4B91BE3969C009E0FD6 /* SL-TF 81.1.kml in Resources */,
+				9DB1A44E1BE3969C009E0FD6 /* PR-TF 35.3.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +1204,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D185C771BE24602005AFBC1 /* ViewController.m in Sources */,
+				9DB1A33D1BE385B6009E0FD6 /* FMDatabasePool.m in Sources */,
 				9D185C741BE24602005AFBC1 /* AppDelegate.m in Sources */,
+				9DB1A33E1BE385B6009E0FD6 /* FMDatabaseQueue.m in Sources */,
 				9D185C711BE24602005AFBC1 /* main.m in Sources */,
+				9DB1A4D61BE3ABD8009E0FD6 /* Route.m in Sources */,
+				9DB1A33B1BE385B6009E0FD6 /* FMDatabase.m in Sources */,
+				9DB1A33F1BE385B6009E0FD6 /* FMResultSet.m in Sources */,
+				9DB1A3441BE391F9009E0FD6 /* Database.m in Sources */,
+				9DB1A33C1BE385B6009E0FD6 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,11 +1355,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -508,11 +1372,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RutasDeTenerife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.RutasDeTenerife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
