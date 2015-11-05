@@ -21,4 +21,64 @@
     return self;
 }
 
+-(void)setMarker:(GMSMarker *)marker{
+
+}
+
+-(NSString *)getName{
+    return nil;
+}
+
+-(NSString *)getXmlRoute{
+    return nil;
+}
+
+-(NSString *)getDist{
+    return nil;
+}
+
+-(float)getDurac{
+    return 0;
+}
+
+-(int)getDifficulty{
+    return 0;
+}
+
+-(int)getId{
+    return 0;
+}
+
+-(CLLocationCoordinate2D *)getFirstPoint{
+    return nil;
+}
+
+-(void)setMarkersVisibility:(BOOL)visibility{
+
+}
+
+-(void)setWeatherJson:(NSString *)json{
+
+}
+
+-(NSString *)getWeatherJson{
+    return nil;
+}
+
+-(void)clearWeather{
+
+}
+
+-(int)getRegion{
+    return 0;
+}
+
+-(int)approved{
+    return 0;
+}
+
+-(NSMutableArray *)getMarkersList{
+    return nil;
+}
+
 @end

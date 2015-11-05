@@ -11,6 +11,7 @@
 
 @interface Route : NSObject{
 
+    NSMutableArray *markerList;
     NSString *name;
     NSString *xmlRoute;
     BOOL isActive;
