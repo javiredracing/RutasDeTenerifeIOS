@@ -20,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyAbS8ztZsK2R1TU-RQ-8Sx8opgNnJXtu48"];
+     [self createCopyOfDatabaseIfNeeded];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ViewController *map = [[ViewController alloc] init];
     self.window.rootViewController = map;
@@ -49,6 +50,26 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)createCopyOfDatabaseIfNeeded{
+    BOOL success;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSError *error;
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *appDBPath = [documentsDirectory stringByAppendingString:@"/BDRutas"];
+    success = [fileManager fileExistsAtPath:appDBPath];
+    if (!success){
+        //database doesn`t exist
+        NSString *defaultDBPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"BDRutas"];
+        success = [fileManager copyItemAtPath:defaultDBPath toPath:appDBPath error:&error];
+        if (!success)
+            NSAssert1(0, @"Failed to create database file: %@", [error localizedDescription]);
+        else
+            NSLog(@"Database created %@", defaultDBPath);
+    }else
+        NSLog(@"Database %@ does exist",appDBPath);
 }
 
 @end

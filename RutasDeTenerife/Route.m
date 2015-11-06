@@ -13,8 +13,7 @@
 @synthesize isActive = _isActive;
 
 
-
--(id)init:(int)_id :(NSString *) name1 :(NSString*)_xml :(float)_dist :(int) _difficulty : (float)_durac :(int)_approved :(int)reg{
+-(id)init:(int)_id :(NSString *) name1 :(NSString*)_xml :(double)_dist :(int) _difficulty : (double)_durac :(int)_approved :(int)reg{
     self = [super init];
     if (self) {
         //self
@@ -45,11 +44,11 @@
     return xmlRoute;
 }
 
--(float)getDist{
+-(double)getDist{
     return dist;
 }
 
--(float)getDurac{
+-(double)getDurac{
     return durac;
 }
 

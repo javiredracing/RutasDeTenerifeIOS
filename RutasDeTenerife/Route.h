@@ -15,10 +15,10 @@
     NSString *name;
     NSString *xmlRoute;
     BOOL isActive;
-    float dist;
+    double dist;
     int difficulty;
     int identifier;
-    float durac;
+    double durac;
     NSString *weatherJson;
     NSTimeInterval timeStamp;
     int region;
@@ -30,8 +30,8 @@
 -(void)setMarker: (GMSMarker *)marker;
 -(NSString *)getName;
 -(NSString *)getXmlRoute;
--(float)getDist;
--(float)getDurac;
+-(double)getDist;
+-(double)getDurac;
 -(int)getDifficulty;
 -(int)getId;
 -(CLLocationCoordinate2D)getFirstPoint;
@@ -42,5 +42,6 @@
 -(int)getRegion;
 -(int)approved;
 -(NSMutableArray *)getMarkersList;
+-(id)init:(int)_id :(NSString *) name1 :(NSString*)_xml :(double)_dist :(int) _difficulty : (double)_durac :(int)_approved :(int)reg;
 
 @end

@@ -16,6 +16,7 @@ NSString * const DB_NAME= @"BDRutas";
         NSArray  *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *docsPath = [paths objectAtIndex:0];
         NSString *dbPath = [docsPath stringByAppendingPathComponent:DB_NAME];
+        NSLog(dbPath);
         self.database = [FMDatabase databaseWithPath:dbPath];
     }
     return self;
