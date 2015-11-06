@@ -20,7 +20,7 @@
     int identifier;
     float durac;
     NSString *weatherJson;
-    long timeStamp;
+    NSTimeInterval timeStamp;
     int region;
     int approved;
 }
@@ -30,11 +30,11 @@
 -(void)setMarker: (GMSMarker *)marker;
 -(NSString *)getName;
 -(NSString *)getXmlRoute;
--(NSString *)getDist;
+-(float)getDist;
 -(float)getDurac;
 -(int)getDifficulty;
 -(int)getId;
--(CLLocationCoordinate2D *)getFirstPoint;
+-(CLLocationCoordinate2D)getFirstPoint;
 -(void)setMarkersVisibility: (BOOL)visibility;
 -(void)setWeatherJson:(NSString *)json;
 -(NSString *)getWeatherJson;

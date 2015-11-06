@@ -13,72 +13,102 @@
 @synthesize isActive = _isActive;
 
 
--(id)init:(int)_id :(NSString *) name1 :(NSString*)_xml :(float)_dist :(int) _difficulty : (float)_durac :(int)approved :(int)reg{
+
+-(id)init:(int)_id :(NSString *) name1 :(NSString*)_xml :(float)_dist :(int) _difficulty : (float)_durac :(int)_approved :(int)reg{
     self = [super init];
     if (self) {
         //self
+        markerList = [[NSMutableArray alloc]init];
+        name = name1;
+        xmlRoute = _xml;
+        dist = _dist;
+        difficulty = _difficulty;
+        identifier = _id;
+        durac = _durac;
+        timeStamp = 0;
+        weatherJson = nil;
+        region = reg;
+        approved = _approved;
     }
     return self;
 }
 
 -(void)setMarker:(GMSMarker *)marker{
-
+    [markerList addObject:marker];
 }
 
 -(NSString *)getName{
-    return nil;
+    return name;
 }
 
 -(NSString *)getXmlRoute{
-    return nil;
+    return xmlRoute;
 }
 
--(NSString *)getDist{
-    return nil;
+-(float)getDist{
+    return dist;
 }
 
 -(float)getDurac{
-    return 0;
+    return durac;
 }
 
 -(int)getDifficulty{
-    return 0;
+    return difficulty;
 }
 
 -(int)getId{
-    return 0;
+    return identifier;
 }
 
--(CLLocationCoordinate2D *)getFirstPoint{
-    return nil;
+-(CLLocationCoordinate2D)getFirstPoint{
+    GMSMarker *marker = [markerList objectAtIndex:0];
+    CLLocationCoordinate2D pos = [marker position];
+    return pos;
 }
 
 -(void)setMarkersVisibility:(BOOL)visibility{
-
+    int size = [markerList count];
+    for (int i = 0; i < size; i++){
+        GMSMarker *marker = [markerList objectAtIndex:i];
+        if (visibility)
+            marker.opacity = 1;
+        else
+            marker.opacity = 0;
+    }
 }
 
 -(void)setWeatherJson:(NSString *)json{
-
+    weatherJson = json;
+    timeStamp =[[NSDate date] timeIntervalSince1970];
 }
 
 -(NSString *)getWeatherJson{
+    NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
+    if (weatherJson != nil){
+        if (now - timeStamp <= 3600)
+            return weatherJson;
+        else
+            [self clearWeather];
+    }
     return nil;
 }
 
 -(void)clearWeather{
-
+    weatherJson = nil;
+    timeStamp = 0.0;
 }
 
 -(int)getRegion{
-    return 0;
+    return region;
 }
 
 -(int)approved{
-    return 0;
+    return approved;
 }
 
 -(NSMutableArray *)getMarkersList{
-    return nil;
+    return markerList;
 }
 
 @end
