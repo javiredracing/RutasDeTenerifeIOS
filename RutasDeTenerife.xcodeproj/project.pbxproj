@@ -17,6 +17,105 @@
 		9D185C8A1BE24602005AFBC1 /* RutasDeTenerifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C891BE24602005AFBC1 /* RutasDeTenerifeTests.m */; };
 		9D185C951BE24602005AFBC1 /* RutasDeTenerifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */; };
 		9D185CE21BE26A23005AFBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D185CE11BE26A23005AFBC1 /* Foundation.framework */; };
+		9DAA91A61BECEAC3006BF640 /* antequera4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91371BECEAC3006BF640 /* antequera4.jpg */; };
+		9DAA91A71BECEAC3006BF640 /* antequeraoptimized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91381BECEAC3006BF640 /* antequeraoptimized.jpg */; };
+		9DAA91B41BECEAC3006BF640 /* center.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91451BECEAC3006BF640 /* center.png */; };
+		9DAA91B51BECEAC3006BF640 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91461BECEAC3006BF640 /* close.png */; };
+		9DAA91B61BECEAC3006BF640 /* close2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91471BECEAC3006BF640 /* close2.png */; };
+		9DAA91B71BECEAC3006BF640 /* custom_share_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91481BECEAC3006BF640 /* custom_share_64.png */; };
+		9DAA91B81BECEAC3006BF640 /* distance32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91491BECEAC3006BF640 /* distance32.png */; };
+		9DAA91B91BECEAC3006BF640 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914A1BECEAC3006BF640 /* down.png */; };
+		9DAA91BA1BECEAC3006BF640 /* i113.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914B1BECEAC3006BF640 /* i113.png */; };
+		9DAA91BB1BECEAC3006BF640 /* i116.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914C1BECEAC3006BF640 /* i116.png */; };
+		9DAA91BC1BECEAC3006BF640 /* i119.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914D1BECEAC3006BF640 /* i119.png */; };
+		9DAA91BD1BECEAC3006BF640 /* i122.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914E1BECEAC3006BF640 /* i122.png */; };
+		9DAA91BE1BECEAC3006BF640 /* i143.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA914F1BECEAC3006BF640 /* i143.png */; };
+		9DAA91BF1BECEAC3006BF640 /* i176.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91501BECEAC3006BF640 /* i176.png */; };
+		9DAA91C01BECEAC3006BF640 /* i182.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91511BECEAC3006BF640 /* i182.png */; };
+		9DAA91C11BECEAC3006BF640 /* i185.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91521BECEAC3006BF640 /* i185.png */; };
+		9DAA91C21BECEAC3006BF640 /* i200.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91531BECEAC3006BF640 /* i200.png */; };
+		9DAA91C31BECEAC3006BF640 /* i227.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91541BECEAC3006BF640 /* i227.png */; };
+		9DAA91C41BECEAC3006BF640 /* i230.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91551BECEAC3006BF640 /* i230.png */; };
+		9DAA91C51BECEAC3006BF640 /* i248.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91561BECEAC3006BF640 /* i248.png */; };
+		9DAA91C61BECEAC3006BF640 /* i260.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91571BECEAC3006BF640 /* i260.png */; };
+		9DAA91C71BECEAC3006BF640 /* i263.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91581BECEAC3006BF640 /* i263.png */; };
+		9DAA91C81BECEAC3006BF640 /* i266.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91591BECEAC3006BF640 /* i266.png */; };
+		9DAA91C91BECEAC3006BF640 /* i281.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915A1BECEAC3006BF640 /* i281.png */; };
+		9DAA91CA1BECEAC3006BF640 /* i284.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915B1BECEAC3006BF640 /* i284.png */; };
+		9DAA91CB1BECEAC3006BF640 /* i293.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915C1BECEAC3006BF640 /* i293.png */; };
+		9DAA91CC1BECEAC3006BF640 /* i296.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915D1BECEAC3006BF640 /* i296.png */; };
+		9DAA91CD1BECEAC3006BF640 /* i299.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915E1BECEAC3006BF640 /* i299.png */; };
+		9DAA91CE1BECEAC3006BF640 /* i302.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA915F1BECEAC3006BF640 /* i302.png */; };
+		9DAA91CF1BECEAC3006BF640 /* i305.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91601BECEAC3006BF640 /* i305.png */; };
+		9DAA91D01BECEAC3006BF640 /* i308.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91611BECEAC3006BF640 /* i308.png */; };
+		9DAA91D11BECEAC3006BF640 /* i311.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91621BECEAC3006BF640 /* i311.png */; };
+		9DAA91D21BECEAC3006BF640 /* i314.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91631BECEAC3006BF640 /* i314.png */; };
+		9DAA91D31BECEAC3006BF640 /* i317.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91641BECEAC3006BF640 /* i317.png */; };
+		9DAA91D41BECEAC3006BF640 /* i320.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91651BECEAC3006BF640 /* i320.png */; };
+		9DAA91D51BECEAC3006BF640 /* i323.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91661BECEAC3006BF640 /* i323.png */; };
+		9DAA91D61BECEAC3006BF640 /* i326.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91671BECEAC3006BF640 /* i326.png */; };
+		9DAA91D71BECEAC3006BF640 /* i335.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91681BECEAC3006BF640 /* i335.png */; };
+		9DAA91D81BECEAC3006BF640 /* i338.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91691BECEAC3006BF640 /* i338.png */; };
+		9DAA91D91BECEAC3006BF640 /* i350.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916A1BECEAC3006BF640 /* i350.png */; };
+		9DAA91DA1BECEAC3006BF640 /* i353.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916B1BECEAC3006BF640 /* i353.png */; };
+		9DAA91DB1BECEAC3006BF640 /* i356.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916C1BECEAC3006BF640 /* i356.png */; };
+		9DAA91DC1BECEAC3006BF640 /* i359.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916D1BECEAC3006BF640 /* i359.png */; };
+		9DAA91DD1BECEAC3006BF640 /* i368.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916E1BECEAC3006BF640 /* i368.png */; };
+		9DAA91DE1BECEAC3006BF640 /* i374.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA916F1BECEAC3006BF640 /* i374.png */; };
+		9DAA91DF1BECEAC3006BF640 /* i377.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91701BECEAC3006BF640 /* i377.png */; };
+		9DAA91E01BECEAC3006BF640 /* i386.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91711BECEAC3006BF640 /* i386.png */; };
+		9DAA91E11BECEAC3006BF640 /* i389.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91721BECEAC3006BF640 /* i389.png */; };
+		9DAA91E21BECEAC3006BF640 /* i392.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91731BECEAC3006BF640 /* i392.png */; };
+		9DAA91E31BECEAC3006BF640 /* i395.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91741BECEAC3006BF640 /* i395.png */; };
+		9DAA91E41BECEAC3006BF640 /* icon_my_pos64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91751BECEAC3006BF640 /* icon_my_pos64.png */; };
+		9DAA91E51BECEAC3006BF640 /* info64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91761BECEAC3006BF640 /* info64.png */; };
+		9DAA91E61BECEAC3006BF640 /* invitation.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91771BECEAC3006BF640 /* invitation.png */; };
+		9DAA91E71BECEAC3006BF640 /* invitation2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91781BECEAC3006BF640 /* invitation2.png */; };
+		9DAA91E81BECEAC3006BF640 /* list_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91791BECEAC3006BF640 /* list_32.png */; };
+		9DAA91E91BECEAC3006BF640 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917A1BECEAC3006BF640 /* logo.png */; };
+		9DAA91EA1BECEAC3006BF640 /* logo_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917B1BECEAC3006BF640 /* logo_title.png */; };
+		9DAA91EB1BECEAC3006BF640 /* logo_title2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917C1BECEAC3006BF640 /* logo_title2.png */; };
+		9DAA91EC1BECEAC3006BF640 /* map64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917D1BECEAC3006BF640 /* map64.png */; };
+		9DAA91ED1BECEAC3006BF640 /* marker_sign_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917E1BECEAC3006BF640 /* marker_sign_16.png */; };
+		9DAA91EE1BECEAC3006BF640 /* marker_sign_16_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA917F1BECEAC3006BF640 /* marker_sign_16_green.png */; };
+		9DAA91EF1BECEAC3006BF640 /* marker_sign_16_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91801BECEAC3006BF640 /* marker_sign_16_normal.png */; };
+		9DAA91F01BECEAC3006BF640 /* marker_sign_16_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91811BECEAC3006BF640 /* marker_sign_16_red.png */; };
+		9DAA91F11BECEAC3006BF640 /* marker_sign_16_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91821BECEAC3006BF640 /* marker_sign_16_yellow.png */; };
+		9DAA91F21BECEAC3006BF640 /* marker_sign_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91831BECEAC3006BF640 /* marker_sign_24.png */; };
+		9DAA91F31BECEAC3006BF640 /* marker_sign_24_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91841BECEAC3006BF640 /* marker_sign_24_green.png */; };
+		9DAA91F41BECEAC3006BF640 /* marker_sign_24_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91851BECEAC3006BF640 /* marker_sign_24_normal.png */; };
+		9DAA91F51BECEAC3006BF640 /* marker_sign_24_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91861BECEAC3006BF640 /* marker_sign_24_red.png */; };
+		9DAA91F61BECEAC3006BF640 /* marker_sign_24_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91871BECEAC3006BF640 /* marker_sign_24_yellow.png */; };
+		9DAA91F71BECEAC3006BF640 /* moonrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91881BECEAC3006BF640 /* moonrise.png */; };
+		9DAA91F81BECEAC3006BF640 /* moonset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91891BECEAC3006BF640 /* moonset.png */; };
+		9DAA91F91BECEAC3006BF640 /* more48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918A1BECEAC3006BF640 /* more48.png */; };
+		9DAA91FA1BECEAC3006BF640 /* my_pos24_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918B1BECEAC3006BF640 /* my_pos24_center.png */; };
+		9DAA91FB1BECEAC3006BF640 /* my_pos24_center_no_bearing.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918C1BECEAC3006BF640 /* my_pos24_center_no_bearing.png */; };
+		9DAA91FC1BECEAC3006BF640 /* my_pos2_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918D1BECEAC3006BF640 /* my_pos2_24.png */; };
+		9DAA91FD1BECEAC3006BF640 /* nivel_dificil.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918E1BECEAC3006BF640 /* nivel_dificil.png */; };
+		9DAA91FE1BECEAC3006BF640 /* nivel_facil.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA918F1BECEAC3006BF640 /* nivel_facil.png */; };
+		9DAA91FF1BECEAC3006BF640 /* nivel_intermedio.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91901BECEAC3006BF640 /* nivel_intermedio.png */; };
+		9DAA92001BECEAC3006BF640 /* pin_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91911BECEAC3006BF640 /* pin_24.png */; };
+		9DAA92011BECEAC3006BF640 /* pinned_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91921BECEAC3006BF640 /* pinned_24.png */; };
+		9DAA92021BECEAC3006BF640 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91931BECEAC3006BF640 /* plus.png */; };
+		9DAA92031BECEAC3006BF640 /* plus16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91941BECEAC3006BF640 /* plus16.png */; };
+		9DAA92041BECEAC3006BF640 /* search64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91951BECEAC3006BF640 /* search64.png */; };
+		9DAA92051BECEAC3006BF640 /* senalizacion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91961BECEAC3006BF640 /* senalizacion.jpeg */; };
+		9DAA92061BECEAC3006BF640 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91971BECEAC3006BF640 /* share.png */; };
+		9DAA92071BECEAC3006BF640 /* share32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91981BECEAC3006BF640 /* share32.png */; };
+		9DAA92081BECEAC3006BF640 /* share64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91991BECEAC3006BF640 /* share64.png */; };
+		9DAA92091BECEAC3006BF640 /* share72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919A1BECEAC3006BF640 /* share72.png */; };
+		9DAA920A1BECEAC3006BF640 /* simple_filter_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919B1BECEAC3006BF640 /* simple_filter_64.png */; };
+		9DAA920B1BECEAC3006BF640 /* sol_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919C1BECEAC3006BF640 /* sol_icon.png */; };
+		9DAA920C1BECEAC3006BF640 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919D1BECEAC3006BF640 /* statistics.png */; };
+		9DAA920D1BECEAC3006BF640 /* sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919E1BECEAC3006BF640 /* sunrise.png */; };
+		9DAA920E1BECEAC3006BF640 /* sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA919F1BECEAC3006BF640 /* sunset.png */; };
+		9DAA920F1BECEAC3006BF640 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A01BECEAC3006BF640 /* timer.png */; };
+		9DAA92101BECEAC3006BF640 /* umbrella_drizzle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A11BECEAC3006BF640 /* umbrella_drizzle.png */; };
+		9DAA92111BECEAC3006BF640 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A21BECEAC3006BF640 /* unlock.png */; };
+		9DAA92121BECEAC3006BF640 /* viento_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A31BECEAC3006BF640 /* viento_icon.png */; };
+		9DAA92131BECEAC3006BF640 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A41BECEAC3006BF640 /* wind.png */; };
+		9DAA92141BECEAC3006BF640 /* wind_direc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA91A51BECEAC3006BF640 /* wind_direc.png */; };
 		9DB1A33B1BE385B6009E0FD6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3311BE385B6009E0FD6 /* FMDatabase.m */; };
 		9DB1A33C1BE385B6009E0FD6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3331BE385B6009E0FD6 /* FMDatabaseAdditions.m */; };
 		9DB1A33D1BE385B6009E0FD6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1A3351BE385B6009E0FD6 /* FMDatabasePool.m */; };
@@ -262,6 +361,105 @@
 		9D185C941BE24602005AFBC1 /* RutasDeTenerifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RutasDeTenerifeUITests.m; sourceTree = "<group>"; };
 		9D185C961BE24602005AFBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D185CE11BE26A23005AFBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DAA91371BECEAC3006BF640 /* antequera4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antequera4.jpg; sourceTree = "<group>"; };
+		9DAA91381BECEAC3006BF640 /* antequeraoptimized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antequeraoptimized.jpg; sourceTree = "<group>"; };
+		9DAA91451BECEAC3006BF640 /* center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center.png; sourceTree = "<group>"; };
+		9DAA91461BECEAC3006BF640 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		9DAA91471BECEAC3006BF640 /* close2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close2.png; sourceTree = "<group>"; };
+		9DAA91481BECEAC3006BF640 /* custom_share_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_share_64.png; sourceTree = "<group>"; };
+		9DAA91491BECEAC3006BF640 /* distance32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distance32.png; sourceTree = "<group>"; };
+		9DAA914A1BECEAC3006BF640 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		9DAA914B1BECEAC3006BF640 /* i113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i113.png; sourceTree = "<group>"; };
+		9DAA914C1BECEAC3006BF640 /* i116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i116.png; sourceTree = "<group>"; };
+		9DAA914D1BECEAC3006BF640 /* i119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i119.png; sourceTree = "<group>"; };
+		9DAA914E1BECEAC3006BF640 /* i122.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i122.png; sourceTree = "<group>"; };
+		9DAA914F1BECEAC3006BF640 /* i143.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i143.png; sourceTree = "<group>"; };
+		9DAA91501BECEAC3006BF640 /* i176.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i176.png; sourceTree = "<group>"; };
+		9DAA91511BECEAC3006BF640 /* i182.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i182.png; sourceTree = "<group>"; };
+		9DAA91521BECEAC3006BF640 /* i185.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i185.png; sourceTree = "<group>"; };
+		9DAA91531BECEAC3006BF640 /* i200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i200.png; sourceTree = "<group>"; };
+		9DAA91541BECEAC3006BF640 /* i227.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i227.png; sourceTree = "<group>"; };
+		9DAA91551BECEAC3006BF640 /* i230.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i230.png; sourceTree = "<group>"; };
+		9DAA91561BECEAC3006BF640 /* i248.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i248.png; sourceTree = "<group>"; };
+		9DAA91571BECEAC3006BF640 /* i260.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i260.png; sourceTree = "<group>"; };
+		9DAA91581BECEAC3006BF640 /* i263.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i263.png; sourceTree = "<group>"; };
+		9DAA91591BECEAC3006BF640 /* i266.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i266.png; sourceTree = "<group>"; };
+		9DAA915A1BECEAC3006BF640 /* i281.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i281.png; sourceTree = "<group>"; };
+		9DAA915B1BECEAC3006BF640 /* i284.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i284.png; sourceTree = "<group>"; };
+		9DAA915C1BECEAC3006BF640 /* i293.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i293.png; sourceTree = "<group>"; };
+		9DAA915D1BECEAC3006BF640 /* i296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i296.png; sourceTree = "<group>"; };
+		9DAA915E1BECEAC3006BF640 /* i299.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i299.png; sourceTree = "<group>"; };
+		9DAA915F1BECEAC3006BF640 /* i302.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i302.png; sourceTree = "<group>"; };
+		9DAA91601BECEAC3006BF640 /* i305.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i305.png; sourceTree = "<group>"; };
+		9DAA91611BECEAC3006BF640 /* i308.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i308.png; sourceTree = "<group>"; };
+		9DAA91621BECEAC3006BF640 /* i311.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i311.png; sourceTree = "<group>"; };
+		9DAA91631BECEAC3006BF640 /* i314.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i314.png; sourceTree = "<group>"; };
+		9DAA91641BECEAC3006BF640 /* i317.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i317.png; sourceTree = "<group>"; };
+		9DAA91651BECEAC3006BF640 /* i320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i320.png; sourceTree = "<group>"; };
+		9DAA91661BECEAC3006BF640 /* i323.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i323.png; sourceTree = "<group>"; };
+		9DAA91671BECEAC3006BF640 /* i326.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i326.png; sourceTree = "<group>"; };
+		9DAA91681BECEAC3006BF640 /* i335.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i335.png; sourceTree = "<group>"; };
+		9DAA91691BECEAC3006BF640 /* i338.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i338.png; sourceTree = "<group>"; };
+		9DAA916A1BECEAC3006BF640 /* i350.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i350.png; sourceTree = "<group>"; };
+		9DAA916B1BECEAC3006BF640 /* i353.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i353.png; sourceTree = "<group>"; };
+		9DAA916C1BECEAC3006BF640 /* i356.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i356.png; sourceTree = "<group>"; };
+		9DAA916D1BECEAC3006BF640 /* i359.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i359.png; sourceTree = "<group>"; };
+		9DAA916E1BECEAC3006BF640 /* i368.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i368.png; sourceTree = "<group>"; };
+		9DAA916F1BECEAC3006BF640 /* i374.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i374.png; sourceTree = "<group>"; };
+		9DAA91701BECEAC3006BF640 /* i377.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i377.png; sourceTree = "<group>"; };
+		9DAA91711BECEAC3006BF640 /* i386.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i386.png; sourceTree = "<group>"; };
+		9DAA91721BECEAC3006BF640 /* i389.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i389.png; sourceTree = "<group>"; };
+		9DAA91731BECEAC3006BF640 /* i392.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i392.png; sourceTree = "<group>"; };
+		9DAA91741BECEAC3006BF640 /* i395.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i395.png; sourceTree = "<group>"; };
+		9DAA91751BECEAC3006BF640 /* icon_my_pos64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_my_pos64.png; sourceTree = "<group>"; };
+		9DAA91761BECEAC3006BF640 /* info64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info64.png; sourceTree = "<group>"; };
+		9DAA91771BECEAC3006BF640 /* invitation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invitation.png; sourceTree = "<group>"; };
+		9DAA91781BECEAC3006BF640 /* invitation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invitation2.png; sourceTree = "<group>"; };
+		9DAA91791BECEAC3006BF640 /* list_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_32.png; sourceTree = "<group>"; };
+		9DAA917A1BECEAC3006BF640 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9DAA917B1BECEAC3006BF640 /* logo_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_title.png; sourceTree = "<group>"; };
+		9DAA917C1BECEAC3006BF640 /* logo_title2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_title2.png; sourceTree = "<group>"; };
+		9DAA917D1BECEAC3006BF640 /* map64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map64.png; sourceTree = "<group>"; };
+		9DAA917E1BECEAC3006BF640 /* marker_sign_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_16.png; sourceTree = "<group>"; };
+		9DAA917F1BECEAC3006BF640 /* marker_sign_16_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_16_green.png; sourceTree = "<group>"; };
+		9DAA91801BECEAC3006BF640 /* marker_sign_16_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_16_normal.png; sourceTree = "<group>"; };
+		9DAA91811BECEAC3006BF640 /* marker_sign_16_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_16_red.png; sourceTree = "<group>"; };
+		9DAA91821BECEAC3006BF640 /* marker_sign_16_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_16_yellow.png; sourceTree = "<group>"; };
+		9DAA91831BECEAC3006BF640 /* marker_sign_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_24.png; sourceTree = "<group>"; };
+		9DAA91841BECEAC3006BF640 /* marker_sign_24_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_24_green.png; sourceTree = "<group>"; };
+		9DAA91851BECEAC3006BF640 /* marker_sign_24_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_24_normal.png; sourceTree = "<group>"; };
+		9DAA91861BECEAC3006BF640 /* marker_sign_24_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_24_red.png; sourceTree = "<group>"; };
+		9DAA91871BECEAC3006BF640 /* marker_sign_24_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_sign_24_yellow.png; sourceTree = "<group>"; };
+		9DAA91881BECEAC3006BF640 /* moonrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonrise.png; sourceTree = "<group>"; };
+		9DAA91891BECEAC3006BF640 /* moonset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonset.png; sourceTree = "<group>"; };
+		9DAA918A1BECEAC3006BF640 /* more48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more48.png; sourceTree = "<group>"; };
+		9DAA918B1BECEAC3006BF640 /* my_pos24_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_pos24_center.png; sourceTree = "<group>"; };
+		9DAA918C1BECEAC3006BF640 /* my_pos24_center_no_bearing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_pos24_center_no_bearing.png; sourceTree = "<group>"; };
+		9DAA918D1BECEAC3006BF640 /* my_pos2_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_pos2_24.png; sourceTree = "<group>"; };
+		9DAA918E1BECEAC3006BF640 /* nivel_dificil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel_dificil.png; sourceTree = "<group>"; };
+		9DAA918F1BECEAC3006BF640 /* nivel_facil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel_facil.png; sourceTree = "<group>"; };
+		9DAA91901BECEAC3006BF640 /* nivel_intermedio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel_intermedio.png; sourceTree = "<group>"; };
+		9DAA91911BECEAC3006BF640 /* pin_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_24.png; sourceTree = "<group>"; };
+		9DAA91921BECEAC3006BF640 /* pinned_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinned_24.png; sourceTree = "<group>"; };
+		9DAA91931BECEAC3006BF640 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		9DAA91941BECEAC3006BF640 /* plus16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus16.png; sourceTree = "<group>"; };
+		9DAA91951BECEAC3006BF640 /* search64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search64.png; sourceTree = "<group>"; };
+		9DAA91961BECEAC3006BF640 /* senalizacion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = senalizacion.jpeg; sourceTree = "<group>"; };
+		9DAA91971BECEAC3006BF640 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		9DAA91981BECEAC3006BF640 /* share32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share32.png; sourceTree = "<group>"; };
+		9DAA91991BECEAC3006BF640 /* share64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share64.png; sourceTree = "<group>"; };
+		9DAA919A1BECEAC3006BF640 /* share72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share72.png; sourceTree = "<group>"; };
+		9DAA919B1BECEAC3006BF640 /* simple_filter_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_filter_64.png; sourceTree = "<group>"; };
+		9DAA919C1BECEAC3006BF640 /* sol_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sol_icon.png; sourceTree = "<group>"; };
+		9DAA919D1BECEAC3006BF640 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistics.png; sourceTree = "<group>"; };
+		9DAA919E1BECEAC3006BF640 /* sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise.png; sourceTree = "<group>"; };
+		9DAA919F1BECEAC3006BF640 /* sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset.png; sourceTree = "<group>"; };
+		9DAA91A01BECEAC3006BF640 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		9DAA91A11BECEAC3006BF640 /* umbrella_drizzle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella_drizzle.png; sourceTree = "<group>"; };
+		9DAA91A21BECEAC3006BF640 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		9DAA91A31BECEAC3006BF640 /* viento_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viento_icon.png; sourceTree = "<group>"; };
+		9DAA91A41BECEAC3006BF640 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		9DAA91A51BECEAC3006BF640 /* wind_direc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind_direc.png; sourceTree = "<group>"; };
 		9DB1A3301BE385B6009E0FD6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		9DB1A3311BE385B6009E0FD6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		9DB1A3321BE385B6009E0FD6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -544,6 +742,7 @@
 		9D185C6E1BE24602005AFBC1 /* RutasDeTenerife */ = {
 			isa = PBXGroup;
 			children = (
+				9DAA91361BECEAC3006BF640 /* drawable */,
 				9DB1A3451BE3969B009E0FD6 /* assets */,
 				9DB1A32F1BE385B6009E0FD6 /* fmdb */,
 				9D185C721BE24602005AFBC1 /* AppDelegate.h */,
@@ -587,6 +786,112 @@
 				9D185C961BE24602005AFBC1 /* Info.plist */,
 			);
 			path = RutasDeTenerifeUITests;
+			sourceTree = "<group>";
+		};
+		9DAA91361BECEAC3006BF640 /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA91371BECEAC3006BF640 /* antequera4.jpg */,
+				9DAA91381BECEAC3006BF640 /* antequeraoptimized.jpg */,
+				9DAA91451BECEAC3006BF640 /* center.png */,
+				9DAA91461BECEAC3006BF640 /* close.png */,
+				9DAA91471BECEAC3006BF640 /* close2.png */,
+				9DAA91481BECEAC3006BF640 /* custom_share_64.png */,
+				9DAA91491BECEAC3006BF640 /* distance32.png */,
+				9DAA914A1BECEAC3006BF640 /* down.png */,
+				9DAA914B1BECEAC3006BF640 /* i113.png */,
+				9DAA914C1BECEAC3006BF640 /* i116.png */,
+				9DAA914D1BECEAC3006BF640 /* i119.png */,
+				9DAA914E1BECEAC3006BF640 /* i122.png */,
+				9DAA914F1BECEAC3006BF640 /* i143.png */,
+				9DAA91501BECEAC3006BF640 /* i176.png */,
+				9DAA91511BECEAC3006BF640 /* i182.png */,
+				9DAA91521BECEAC3006BF640 /* i185.png */,
+				9DAA91531BECEAC3006BF640 /* i200.png */,
+				9DAA91541BECEAC3006BF640 /* i227.png */,
+				9DAA91551BECEAC3006BF640 /* i230.png */,
+				9DAA91561BECEAC3006BF640 /* i248.png */,
+				9DAA91571BECEAC3006BF640 /* i260.png */,
+				9DAA91581BECEAC3006BF640 /* i263.png */,
+				9DAA91591BECEAC3006BF640 /* i266.png */,
+				9DAA915A1BECEAC3006BF640 /* i281.png */,
+				9DAA915B1BECEAC3006BF640 /* i284.png */,
+				9DAA915C1BECEAC3006BF640 /* i293.png */,
+				9DAA915D1BECEAC3006BF640 /* i296.png */,
+				9DAA915E1BECEAC3006BF640 /* i299.png */,
+				9DAA915F1BECEAC3006BF640 /* i302.png */,
+				9DAA91601BECEAC3006BF640 /* i305.png */,
+				9DAA91611BECEAC3006BF640 /* i308.png */,
+				9DAA91621BECEAC3006BF640 /* i311.png */,
+				9DAA91631BECEAC3006BF640 /* i314.png */,
+				9DAA91641BECEAC3006BF640 /* i317.png */,
+				9DAA91651BECEAC3006BF640 /* i320.png */,
+				9DAA91661BECEAC3006BF640 /* i323.png */,
+				9DAA91671BECEAC3006BF640 /* i326.png */,
+				9DAA91681BECEAC3006BF640 /* i335.png */,
+				9DAA91691BECEAC3006BF640 /* i338.png */,
+				9DAA916A1BECEAC3006BF640 /* i350.png */,
+				9DAA916B1BECEAC3006BF640 /* i353.png */,
+				9DAA916C1BECEAC3006BF640 /* i356.png */,
+				9DAA916D1BECEAC3006BF640 /* i359.png */,
+				9DAA916E1BECEAC3006BF640 /* i368.png */,
+				9DAA916F1BECEAC3006BF640 /* i374.png */,
+				9DAA91701BECEAC3006BF640 /* i377.png */,
+				9DAA91711BECEAC3006BF640 /* i386.png */,
+				9DAA91721BECEAC3006BF640 /* i389.png */,
+				9DAA91731BECEAC3006BF640 /* i392.png */,
+				9DAA91741BECEAC3006BF640 /* i395.png */,
+				9DAA91751BECEAC3006BF640 /* icon_my_pos64.png */,
+				9DAA91761BECEAC3006BF640 /* info64.png */,
+				9DAA91771BECEAC3006BF640 /* invitation.png */,
+				9DAA91781BECEAC3006BF640 /* invitation2.png */,
+				9DAA91791BECEAC3006BF640 /* list_32.png */,
+				9DAA917A1BECEAC3006BF640 /* logo.png */,
+				9DAA917B1BECEAC3006BF640 /* logo_title.png */,
+				9DAA917C1BECEAC3006BF640 /* logo_title2.png */,
+				9DAA917D1BECEAC3006BF640 /* map64.png */,
+				9DAA917E1BECEAC3006BF640 /* marker_sign_16.png */,
+				9DAA917F1BECEAC3006BF640 /* marker_sign_16_green.png */,
+				9DAA91801BECEAC3006BF640 /* marker_sign_16_normal.png */,
+				9DAA91811BECEAC3006BF640 /* marker_sign_16_red.png */,
+				9DAA91821BECEAC3006BF640 /* marker_sign_16_yellow.png */,
+				9DAA91831BECEAC3006BF640 /* marker_sign_24.png */,
+				9DAA91841BECEAC3006BF640 /* marker_sign_24_green.png */,
+				9DAA91851BECEAC3006BF640 /* marker_sign_24_normal.png */,
+				9DAA91861BECEAC3006BF640 /* marker_sign_24_red.png */,
+				9DAA91871BECEAC3006BF640 /* marker_sign_24_yellow.png */,
+				9DAA91881BECEAC3006BF640 /* moonrise.png */,
+				9DAA91891BECEAC3006BF640 /* moonset.png */,
+				9DAA918A1BECEAC3006BF640 /* more48.png */,
+				9DAA918B1BECEAC3006BF640 /* my_pos24_center.png */,
+				9DAA918C1BECEAC3006BF640 /* my_pos24_center_no_bearing.png */,
+				9DAA918D1BECEAC3006BF640 /* my_pos2_24.png */,
+				9DAA918E1BECEAC3006BF640 /* nivel_dificil.png */,
+				9DAA918F1BECEAC3006BF640 /* nivel_facil.png */,
+				9DAA91901BECEAC3006BF640 /* nivel_intermedio.png */,
+				9DAA91911BECEAC3006BF640 /* pin_24.png */,
+				9DAA91921BECEAC3006BF640 /* pinned_24.png */,
+				9DAA91931BECEAC3006BF640 /* plus.png */,
+				9DAA91941BECEAC3006BF640 /* plus16.png */,
+				9DAA91951BECEAC3006BF640 /* search64.png */,
+				9DAA91961BECEAC3006BF640 /* senalizacion.jpeg */,
+				9DAA91971BECEAC3006BF640 /* share.png */,
+				9DAA91981BECEAC3006BF640 /* share32.png */,
+				9DAA91991BECEAC3006BF640 /* share64.png */,
+				9DAA919A1BECEAC3006BF640 /* share72.png */,
+				9DAA919B1BECEAC3006BF640 /* simple_filter_64.png */,
+				9DAA919C1BECEAC3006BF640 /* sol_icon.png */,
+				9DAA919D1BECEAC3006BF640 /* statistics.png */,
+				9DAA919E1BECEAC3006BF640 /* sunrise.png */,
+				9DAA919F1BECEAC3006BF640 /* sunset.png */,
+				9DAA91A01BECEAC3006BF640 /* timer.png */,
+				9DAA91A11BECEAC3006BF640 /* umbrella_drizzle.png */,
+				9DAA91A21BECEAC3006BF640 /* unlock.png */,
+				9DAA91A31BECEAC3006BF640 /* viento_icon.png */,
+				9DAA91A41BECEAC3006BF640 /* wind.png */,
+				9DAA91A51BECEAC3006BF640 /* wind_direc.png */,
+			);
+			path = drawable;
 			sourceTree = "<group>";
 		};
 		9DB1A32F1BE385B6009E0FD6 /* fmdb */ = {
@@ -929,8 +1234,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAA91BA1BECEAC3006BF640 /* i113.png in Resources */,
+				9DAA92111BECEAC3006BF640 /* unlock.png in Resources */,
+				9DAA91FB1BECEAC3006BF640 /* my_pos24_center_no_bearing.png in Resources */,
+				9DAA91C91BECEAC3006BF640 /* i281.png in Resources */,
+				9DAA91CE1BECEAC3006BF640 /* i302.png in Resources */,
+				9DAA920C1BECEAC3006BF640 /* statistics.png in Resources */,
 				9DB1A4221BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.gpx in Resources */,
 				9DB1A4AB1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.kml in Resources */,
+				9DAA92101BECEAC3006BF640 /* umbrella_drizzle.png in Resources */,
 				9DB1A41F1BE3969C009E0FD6 /* BDRutas in Resources */,
 				9DB1A4371BE3969C009E0FD6 /* igueque-sendero-no17.kml in Resources */,
 				9DB1A4121BE3969C009E0FD6 /* 07-montana-blanca.kml in Resources */,
@@ -942,24 +1254,34 @@
 				9DB1A4BD1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.kml in Resources */,
 				9DB1A4131BE3969C009E0FD6 /* 14-alto-de-guamaso.gpx in Resources */,
 				9DB1A4801BE3969C009E0FD6 /* PR-TF 70.gpx in Resources */,
+				9DAA91C31BECEAC3006BF640 /* i227.png in Resources */,
 				9DB1A48C1BE3969C009E0FD6 /* PR-TF 86.1.gpx in Resources */,
+				9DAA91D81BECEAC3006BF640 /* i338.png in Resources */,
 				9DB1A4BF1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.kml in Resources */,
+				9DAA91E71BECEAC3006BF640 /* invitation2.png in Resources */,
 				9DB1A45C1BE3969C009E0FD6 /* PR-TF 43.gpx in Resources */,
 				9DB1A4D31BE3969C009E0FD6 /* ventanas-de-Guimar.kml in Resources */,
 				9DB1A4B61BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.gpx in Resources */,
+				9DAA91F21BECEAC3006BF640 /* marker_sign_24.png in Resources */,
 				9D185C7F1BE24602005AFBC1 /* LaunchScreen.storyboard in Resources */,
 				9DB1A4C51BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.kml in Resources */,
 				9DB1A4381BE3969C009E0FD6 /* la-mesa-araya-igueste-sl-tf-296.gpx in Resources */,
+				9DAA91EF1BECEAC3006BF640 /* marker_sign_16_normal.png in Resources */,
+				9DAA920A1BECEAC3006BF640 /* simple_filter_64.png in Resources */,
 				9DB1A4701BE3969C009E0FD6 /* PR-TF 55.gpx in Resources */,
 				9DB1A4A31BE3969C009E0FD6 /* pr-tf-6.kml in Resources */,
 				9DB1A49F1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.kml in Resources */,
 				9DB1A4141BE3969C009E0FD6 /* 14-alto-de-guamaso.kml in Resources */,
+				9DAA91CC1BECEAC3006BF640 /* i296.png in Resources */,
 				9DB1A49B1BE3969C009E0FD6 /* pr-tf-122.kml in Resources */,
 				9DB1A42D1BE3969C009E0FD6 /* GR 131 Etapa 2.kml in Resources */,
 				9DB1A40E1BE3969C009E0FD6 /* 02-arenas-negras.kml in Resources */,
+				9DAA91C61BECEAC3006BF640 /* i260.png in Resources */,
+				9DAA91B91BECEAC3006BF640 /* down.png in Resources */,
 				9DB1A4281BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.gpx in Resources */,
 				9DB1A4C31BE3969C009E0FD6 /* sl-tf-60.kml in Resources */,
 				9DB1A4171BE3969C009E0FD6 /* 19-majua.gpx in Resources */,
+				9DAA92081BECEAC3006BF640 /* share64.png in Resources */,
 				9DB1A42C1BE3969C009E0FD6 /* GR 131 Etapa 2.gpx in Resources */,
 				9DB1A4931BE3969C009E0FD6 /* PR-TF 86.kml in Resources */,
 				9DB1A4BA1BE3969C009E0FD6 /* SL-TF 81.gpx in Resources */,
@@ -971,35 +1293,56 @@
 				9DB1A4771BE3969C009E0FD6 /* PR-TF 58.kml in Resources */,
 				9DB1A4681BE3969C009E0FD6 /* PR-TF 52.gpx in Resources */,
 				9DB1A4C01BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.gpx in Resources */,
+				9DAA91FF1BECEAC3006BF640 /* nivel_intermedio.png in Resources */,
 				9DB1A41C1BE3969C009E0FD6 /* antequera.kml in Resources */,
+				9DAA91F51BECEAC3006BF640 /* marker_sign_24_red.png in Resources */,
 				9DB1A4A01BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.gpx in Resources */,
 				9DB1A44F1BE3969C009E0FD6 /* PR-TF 35.3.kml in Resources */,
+				9DAA91E91BECEAC3006BF640 /* logo.png in Resources */,
 				9DB1A4A21BE3969C009E0FD6 /* pr-tf-6.gpx in Resources */,
+				9DAA91BF1BECEAC3006BF640 /* i176.png in Resources */,
+				9DAA91F41BECEAC3006BF640 /* marker_sign_24_normal.png in Resources */,
 				9DB1A4C71BE3969C009E0FD6 /* sombrero_de_chasna_circular.kml in Resources */,
 				9DB1A4B71BE3969C009E0FD6 /* samarinescandelaria-sl-tf-292.kml in Resources */,
 				9DB1A4651BE3969C009E0FD6 /* PR-TF 52.1.kml in Resources */,
+				9DAA91C81BECEAC3006BF640 /* i266.png in Resources */,
+				9DAA91E41BECEAC3006BF640 /* icon_my_pos64.png in Resources */,
 				9DB1A46A1BE3969C009E0FD6 /* PR-TF 53.1.gpx in Resources */,
 				9DB1A4861BE3969C009E0FD6 /* PR-TF 83.1.gpx in Resources */,
 				9DB1A46B1BE3969C009E0FD6 /* PR-TF 53.1.kml in Resources */,
+				9DAA91A71BECEAC3006BF640 /* antequeraoptimized.jpg in Resources */,
 				9DB1A4C41BE3969C009E0FD6 /* sl-tf-71-camino-de-la-virgen.gpx in Resources */,
 				9DB1A4301BE3969C009E0FD6 /* GR 131 Etapa 4.gpx in Resources */,
 				9DB1A4821BE3969C009E0FD6 /* PR-TF 72.gpx in Resources */,
+				9DAA91EE1BECEAC3006BF640 /* marker_sign_16_green.png in Resources */,
 				9DB1A47D1BE3969C009E0FD6 /* PR-TF 70.1.kml in Resources */,
 				9DB1A45B1BE3969C009E0FD6 /* PR-TF 43.3.kml in Resources */,
 				9DB1A4CF1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.kml in Resources */,
+				9DAA92121BECEAC3006BF640 /* viento_icon.png in Resources */,
 				9DB1A4881BE3969C009E0FD6 /* PR-TF 83.2.gpx in Resources */,
+				9DAA91EC1BECEAC3006BF640 /* map64.png in Resources */,
+				9DAA91DE1BECEAC3006BF640 /* i374.png in Resources */,
 				9DB1A4551BE3969C009E0FD6 /* PR-TF 40.kml in Resources */,
+				9DAA91D61BECEAC3006BF640 /* i326.png in Resources */,
 				9DB1A45F1BE3969C009E0FD6 /* PR-TF 5.1.kml in Resources */,
+				9DAA91B51BECEAC3006BF640 /* close.png in Resources */,
 				9DB1A4A81BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.gpx in Resources */,
 				9DB1A4631BE3969C009E0FD6 /* PR-TF 51.kml in Resources */,
 				9DB1A47F1BE3969C009E0FD6 /* PR-TF 70.2.kml in Resources */,
 				9DB1A4C81BE3969C009E0FD6 /* teide1.gpx in Resources */,
 				9DB1A4341BE3969C009E0FD6 /* GR 131.1.gpx in Resources */,
+				9DAA91F01BECEAC3006BF640 /* marker_sign_16_red.png in Resources */,
+				9DAA91C51BECEAC3006BF640 /* i248.png in Resources */,
 				9DB1A41B1BE3969C009E0FD6 /* antequera.gpx in Resources */,
 				9DB1A46C1BE3969C009E0FD6 /* PR-TF 53.gpx in Resources */,
 				9DB1A4871BE3969C009E0FD6 /* PR-TF 83.1.kml in Resources */,
+				9DAA91C11BECEAC3006BF640 /* i185.png in Resources */,
+				9DAA91DA1BECEAC3006BF640 /* i353.png in Resources */,
+				9DAA91E11BECEAC3006BF640 /* i389.png in Resources */,
 				9DB1A4CB1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.kml in Resources */,
+				9DAA91F31BECEAC3006BF640 /* marker_sign_24_green.png in Resources */,
 				9DB1A4181BE3969C009E0FD6 /* 19-majua.kml in Resources */,
+				9DAA92001BECEAC3006BF640 /* pin_24.png in Resources */,
 				9DB1A4D21BE3969C009E0FD6 /* ventanas-de-Guimar.gpx in Resources */,
 				9DB1A43E1BE3969C009E0FD6 /* lsl-tf-60.gpx in Resources */,
 				9DB1A4151BE3969C009E0FD6 /* 16-el-sanatorio.gpx in Resources */,
@@ -1007,12 +1350,17 @@
 				9DB1A47B1BE3969C009E0FD6 /* PR-TF 65.kml in Resources */,
 				9DB1A4231BE3969C009E0FD6 /* circular-los-brezos-sl-tf-294.kml in Resources */,
 				9DB1A4361BE3969C009E0FD6 /* igueque-sendero-no17.gpx in Resources */,
+				9DAA91D11BECEAC3006BF640 /* i311.png in Resources */,
+				9DAA92041BECEAC3006BF640 /* search64.png in Resources */,
 				9DB1A4421BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.gpx in Resources */,
 				9DB1A4841BE3969C009E0FD6 /* PR-TF 8.gpx in Resources */,
 				9DB1A4641BE3969C009E0FD6 /* PR-TF 52.1.gpx in Resources */,
 				9DB1A4A51BE3969C009E0FD6 /* pr-tf-61.kml in Resources */,
 				9DB1A43F1BE3969C009E0FD6 /* lsl-tf-60.kml in Resources */,
+				9DAA91E81BECEAC3006BF640 /* list_32.png in Resources */,
 				9DB1A41D1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.gpx in Resources */,
+				9DAA91CA1BECEAC3006BF640 /* i284.png in Resources */,
+				9DAA91F11BECEAC3006BF640 /* marker_sign_16_yellow.png in Resources */,
 				9DB1A4721BE3969C009E0FD6 /* PR-TF 56.gpx in Resources */,
 				9DB1A48A1BE3969C009E0FD6 /* PR-TF 83.gpx in Resources */,
 				9DB1A4901BE3969C009E0FD6 /* PR-TF 86.3.gpx in Resources */,
@@ -1020,17 +1368,25 @@
 				9DB1A4571BE3969C009E0FD6 /* PR-TF 43.1.kml in Resources */,
 				9DB1A4D11BE3969C009E0FD6 /* tfpr25.kml in Resources */,
 				9DB1A4241BE3969C009E0FD6 /* corral-del-nino-mal-abrigo-sendero-no21.gpx in Resources */,
+				9DAA91BC1BECEAC3006BF640 /* i119.png in Resources */,
+				9DAA91F71BECEAC3006BF640 /* moonrise.png in Resources */,
 				9DB1A46D1BE3969C009E0FD6 /* PR-TF 53.kml in Resources */,
+				9DAA91C41BECEAC3006BF640 /* i230.png in Resources */,
 				9DB1A4441BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.gpx in Resources */,
 				9DB1A4471BE3969C009E0FD6 /* PR-TF 10.1.kml in Resources */,
+				9DAA91DF1BECEAC3006BF640 /* i377.png in Resources */,
+				9DAA91CF1BECEAC3006BF640 /* i305.png in Resources */,
 				9DB1A4211BE3969C009E0FD6 /* chavao.kml in Resources */,
 				9DB1A45D1BE3969C009E0FD6 /* PR-TF 43.kml in Resources */,
+				9DAA91FD1BECEAC3006BF640 /* nivel_dificil.png in Resources */,
+				9DAA91B41BECEAC3006BF640 /* center.png in Resources */,
 				9DB1A4AC1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.gpx in Resources */,
 				9DB1A41A1BE3969C009E0FD6 /* afur-playa-tamadite.kml in Resources */,
 				9DB1A4BE1BE3969C009E0FD6 /* sl-tf-242-circular-las-vegas.gpx in Resources */,
 				9DB1A4311BE3969C009E0FD6 /* GR 131 Etapa 4.kml in Resources */,
 				9DB1A4A71BE3969C009E0FD6 /* pr-tf-62.kml in Resources */,
 				9DB1A4461BE3969C009E0FD6 /* PR-TF 10.1.gpx in Resources */,
+				9DAA91DB1BECEAC3006BF640 /* i356.png in Resources */,
 				9DB1A43C1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.gpx in Resources */,
 				9DB1A4911BE3969C009E0FD6 /* PR-TF 86.3.kml in Resources */,
 				9DB1A49E1BE3969C009E0FD6 /* pr-tf-41-camino-de-el-campanario.gpx in Resources */,
@@ -1038,31 +1394,48 @@
 				9DB1A4271BE3969C009E0FD6 /* Descenso+barranco+Masca.kml in Resources */,
 				9DB1A4B81BE3969C009E0FD6 /* SL-TF 81.1.gpx in Resources */,
 				9DB1A4501BE3969C009E0FD6 /* PR-TF 35.gpx in Resources */,
+				9DAA91F91BECEAC3006BF640 /* more48.png in Resources */,
 				9DB1A4491BE3969C009E0FD6 /* PR-TF 10.kml in Resources */,
 				9DB1A43B1BE3969C009E0FD6 /* las-hiedras-circular.kml in Resources */,
 				9DB1A4BC1BE3969C009E0FD6 /* sl-tf-218-roque-del-conde.gpx in Resources */,
+				9DAA91BB1BECEAC3006BF640 /* i116.png in Resources */,
 				9DB1A4761BE3969C009E0FD6 /* PR-TF 58.gpx in Resources */,
 				9DB1A46F1BE3969C009E0FD6 /* PR-TF 54.kml in Resources */,
 				9DB1A49D1BE3969C009E0FD6 /* pr-tf-3.kml in Resources */,
+				9DAA91C71BECEAC3006BF640 /* i263.png in Resources */,
 				9DB1A4331BE3969C009E0FD6 /* GR 131 Etapa 5.kml in Resources */,
+				9DAA92091BECEAC3006BF640 /* share72.png in Resources */,
 				9D185C7C1BE24602005AFBC1 /* Assets.xcassets in Resources */,
+				9DAA92051BECEAC3006BF640 /* senalizacion.jpeg in Resources */,
 				9DB1A4411BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.kml in Resources */,
+				9DAA920D1BECEAC3006BF640 /* sunrise.png in Resources */,
 				9DB1A4C11BE3969C009E0FD6 /* sl-tf-296-1-barranco-el-rincon.kml in Resources */,
 				9DB1A4731BE3969C009E0FD6 /* PR-TF 56.kml in Resources */,
 				9DB1A4B51BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.kml in Resources */,
+				9DAA91CB1BECEAC3006BF640 /* i293.png in Resources */,
 				9DB1A46E1BE3969C009E0FD6 /* PR-TF 54.gpx in Resources */,
+				9DAA91D01BECEAC3006BF640 /* i308.png in Resources */,
 				9DB1A4431BE3969C009E0FD6 /* parque-nacional-del-teide-volcan-de-fasnia-.kml in Resources */,
 				9DB1A47E1BE3969C009E0FD6 /* PR-TF 70.2.gpx in Resources */,
+				9DAA91D41BECEAC3006BF640 /* i320.png in Resources */,
 				9DB1A45A1BE3969C009E0FD6 /* PR-TF 43.3.gpx in Resources */,
 				9DB1A4C91BE3969C009E0FD6 /* teide1.kml in Resources */,
 				9DB1A4991BE3969C009E0FD6 /* pr-tf-121.kml in Resources */,
 				9D185C7A1BE24602005AFBC1 /* Main.storyboard in Resources */,
+				9DAA91FA1BECEAC3006BF640 /* my_pos24_center.png in Resources */,
 				9DB1A4CC1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.gpx in Resources */,
+				9DAA91FC1BECEAC3006BF640 /* my_pos2_24.png in Resources */,
 				9DB1A4891BE3969C009E0FD6 /* PR-TF 83.2.kml in Resources */,
 				9DB1A44B1BE3969C009E0FD6 /* PR-TF 35.1.kml in Resources */,
 				9DB1A44C1BE3969C009E0FD6 /* PR-TF 35.2.gpx in Resources */,
+				9DAA91D91BECEAC3006BF640 /* i350.png in Resources */,
+				9DAA91D51BECEAC3006BF640 /* i323.png in Resources */,
 				9DB1A43D1BE3969C009E0FD6 /* las-lagunetas-barranco-hondo.kml in Resources */,
+				9DAA92141BECEAC3006BF640 /* wind_direc.png in Resources */,
+				9DAA91C21BECEAC3006BF640 /* i200.png in Resources */,
+				9DAA91D31BECEAC3006BF640 /* i317.png in Resources */,
 				9DB1A42B1BE3969C009E0FD6 /* GR 131 Etapa 1.kml in Resources */,
+				9DAA92071BECEAC3006BF640 /* share32.png in Resources */,
 				9DB1A4601BE3969C009E0FD6 /* PR-TF 5.gpx in Resources */,
 				9DB1A42A1BE3969C009E0FD6 /* GR 131 Etapa 1.gpx in Resources */,
 				9DB1A4981BE3969C009E0FD6 /* pr-tf-121.gpx in Resources */,
@@ -1070,7 +1443,9 @@
 				9DB1A4741BE3969C009E0FD6 /* PR-TF 57.gpx in Resources */,
 				9DB1A4291BE3969C009E0FD6 /* el-filo-sendero-8-p-n-del-teide.kml in Resources */,
 				9DB1A4961BE3969C009E0FD6 /* pr-tf-12.gpx in Resources */,
+				9DAA91E51BECEAC3006BF640 /* info64.png in Resources */,
 				9DB1A4101BE3969C009E0FD6 /* 03-roques-garcia.kml in Resources */,
+				9DAA91ED1BECEAC3006BF640 /* marker_sign_16.png in Resources */,
 				9DB1A4611BE3969C009E0FD6 /* PR-TF 5.kml in Resources */,
 				9DB1A47C1BE3969C009E0FD6 /* PR-TF 70.1.gpx in Resources */,
 				9DB1A4941BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.gpx in Resources */,
@@ -1078,14 +1453,24 @@
 				9DB1A4A41BE3969C009E0FD6 /* pr-tf-61.gpx in Resources */,
 				9DB1A49A1BE3969C009E0FD6 /* pr-tf-122.gpx in Resources */,
 				9DB1A4A91BE3969C009E0FD6 /* pr-tf-71-camino-de-teresme_1.kml in Resources */,
+				9DAA91D21BECEAC3006BF640 /* i314.png in Resources */,
+				9DAA92061BECEAC3006BF640 /* share.png in Resources */,
 				9DB1A4A11BE3969C009E0FD6 /* pr-tf-42-los-barrios-altos-de-icod-de-los-vinos.kml in Resources */,
+				9DAA92011BECEAC3006BF640 /* pinned_24.png in Resources */,
+				9DAA920F1BECEAC3006BF640 /* timer.png in Resources */,
+				9DAA920E1BECEAC3006BF640 /* sunset.png in Resources */,
 				9DB1A48E1BE3969C009E0FD6 /* PR-TF 86.2.gpx in Resources */,
 				9DB1A45E1BE3969C009E0FD6 /* PR-TF 5.1.gpx in Resources */,
 				9DB1A4831BE3969C009E0FD6 /* PR-TF 72.kml in Resources */,
+				9DAA91FE1BECEAC3006BF640 /* nivel_facil.png in Resources */,
+				9DAA91B61BECEAC3006BF640 /* close2.png in Resources */,
 				9DB1A4971BE3969C009E0FD6 /* pr-tf-12.kml in Resources */,
+				9DAA91B71BECEAC3006BF640 /* custom_share_64.png in Resources */,
+				9DAA91A61BECEAC3006BF640 /* antequera4.jpg in Resources */,
 				9DB1A4CA1BE3969C009E0FD6 /* tenerife-barranco-de-ruiz.gpx in Resources */,
 				9DB1A4531BE3969C009E0FD6 /* PR-TF 40.1.kml in Resources */,
 				9DB1A4541BE3969C009E0FD6 /* PR-TF 40.gpx in Resources */,
+				9DAA91DD1BECEAC3006BF640 /* i368.png in Resources */,
 				9DB1A4C21BE3969C009E0FD6 /* sl-tf-60.gpx in Resources */,
 				9DB1A4B01BE3969C009E0FD6 /* pr-tf2.gpx in Resources */,
 				9DB1A4591BE3969C009E0FD6 /* PR-TF 43.2.kml in Resources */,
@@ -1093,44 +1478,63 @@
 				9DB1A4401BE3969C009E0FD6 /* paque-nacional-del-teide-sendero-no13-samara.gpx in Resources */,
 				9DB1A4691BE3969C009E0FD6 /* PR-TF 52.kml in Resources */,
 				9DB1A4951BE3969C009E0FD6 /* pr-tf-11-cruz-del-carmen-batan-de-arriba-punta-del-hidalgo.kml in Resources */,
+				9DAA91BE1BECEAC3006BF640 /* i143.png in Resources */,
 				9DB1A4CE1BE3969C009E0FD6 /* Tenerife.MalpaisGuimar.gpx in Resources */,
 				9DB1A4451BE3969C009E0FD6 /* Playa-del-Socorro---Pico-Teide-0.4---Las-Canadas.kml in Resources */,
 				9DB1A4851BE3969C009E0FD6 /* PR-TF 8.kml in Resources */,
 				9DB1A4261BE3969C009E0FD6 /* Descenso+barranco+Masca.gpx in Resources */,
 				9DB1A43A1BE3969C009E0FD6 /* las-hiedras-circular.gpx in Resources */,
+				9DAA91EA1BECEAC3006BF640 /* logo_title.png in Resources */,
 				9DB1A4511BE3969C009E0FD6 /* PR-TF 35.kml in Resources */,
+				9DAA91E31BECEAC3006BF640 /* i395.png in Resources */,
 				9DB1A48F1BE3969C009E0FD6 /* PR-TF 86.2.kml in Resources */,
 				9DB1A4D01BE3969C009E0FD6 /* tfpr25.gpx in Resources */,
 				9DB1A4811BE3969C009E0FD6 /* PR-TF 70.kml in Resources */,
 				9DB1A48B1BE3969C009E0FD6 /* PR-TF 83.kml in Resources */,
 				9DB1A4AE1BE3969C009E0FD6 /* pr-tf-9.gpx in Resources */,
 				9DB1A4AA1BE3969C009E0FD6 /* pr-tf-711-boca-del-paso-la-quinta.gpx in Resources */,
+				9DAA920B1BECEAC3006BF640 /* sol_icon.png in Resources */,
+				9DAA92131BECEAC3006BF640 /* wind.png in Resources */,
+				9DAA91E21BECEAC3006BF640 /* i392.png in Resources */,
 				9DB1A4621BE3969C009E0FD6 /* PR-TF 51.gpx in Resources */,
 				9DB1A4661BE3969C009E0FD6 /* PR-TF 52.2.gpx in Resources */,
 				9DB1A4581BE3969C009E0FD6 /* PR-TF 43.2.gpx in Resources */,
 				9DB1A4671BE3969C009E0FD6 /* PR-TF 52.2.kml in Resources */,
+				9DAA91CD1BECEAC3006BF640 /* i299.png in Resources */,
+				9DAA91F61BECEAC3006BF640 /* marker_sign_24_yellow.png in Resources */,
 				9DB1A40F1BE3969C009E0FD6 /* 03-roques-garcia.gpx in Resources */,
 				9DB1A4B41BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx in Resources */,
 				9DB1A4781BE3969C009E0FD6 /* PR-TF 59.gpx in Resources */,
+				9DAA91D71BECEAC3006BF640 /* i335.png in Resources */,
 				9DB1A4CD1BE3969C009E0FD6 /* tenerife-pico-viejo-sendero-no9.kml in Resources */,
+				9DAA92021BECEAC3006BF640 /* plus.png in Resources */,
+				9DAA91F81BECEAC3006BF640 /* moonset.png in Resources */,
+				9DAA91EB1BECEAC3006BF640 /* logo_title2.png in Resources */,
 				9DB1A4351BE3969C009E0FD6 /* GR 131.1.kml in Resources */,
 				9DB1A4751BE3969C009E0FD6 /* PR-TF 57.kml in Resources */,
 				9DB1A4B31BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.kml in Resources */,
 				9DB1A41E1BE3969C009E0FD6 /* bco-de-chacorche-igueste-de-candelaria-sl-tf-296-2.kml in Resources */,
+				9DAA91C01BECEAC3006BF640 /* i182.png in Resources */,
 				9DB1A4711BE3969C009E0FD6 /* PR-TF 55.kml in Resources */,
 				9DB1A4201BE3969C009E0FD6 /* chavao.gpx in Resources */,
+				9DAA91BD1BECEAC3006BF640 /* i122.png in Resources */,
+				9DAA91E01BECEAC3006BF640 /* i386.png in Resources */,
 				9DB1A4A61BE3969C009E0FD6 /* pr-tf-62.gpx in Resources */,
 				9DB1A44D1BE3969C009E0FD6 /* PR-TF 35.2.kml in Resources */,
 				9DB1A4561BE3969C009E0FD6 /* PR-TF 43.1.gpx in Resources */,
+				9DAA91B81BECEAC3006BF640 /* distance32.png in Resources */,
 				9DB1A42E1BE3969C009E0FD6 /* GR 131 Etapa 3.gpx in Resources */,
 				9DB1A40D1BE3969C009E0FD6 /* 02-arenas-negras.gpx in Resources */,
 				9DB1A4B21BE3969C009E0FD6 /* puerto-de-la-cruz-san-juan-de-la-rambla-camino-las-aguas.gpx in Resources */,
 				9DB1A47A1BE3969C009E0FD6 /* PR-TF 65.gpx in Resources */,
 				9DB1A4AD1BE3969C009E0FD6 /* pr-tf-712-camino-de-ifonche.kml in Resources */,
+				9DAA92031BECEAC3006BF640 /* plus16.png in Resources */,
 				9DB1A48D1BE3969C009E0FD6 /* PR-TF 86.1.kml in Resources */,
 				9DB1A49C1BE3969C009E0FD6 /* pr-tf-3.gpx in Resources */,
 				9DB1A4B91BE3969C009E0FD6 /* SL-TF 81.1.kml in Resources */,
+				9DAA91DC1BECEAC3006BF640 /* i359.png in Resources */,
 				9DB1A44E1BE3969C009E0FD6 /* PR-TF 35.3.gpx in Resources */,
+				9DAA91E61BECEAC3006BF640 /* invitation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

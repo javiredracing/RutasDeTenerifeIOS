@@ -67,8 +67,8 @@
 }
 
 -(void)setMarkersVisibility:(BOOL)visibility{
-    int size = [markerList count];
-    for (int i = 0; i < size; i++){
+    NSUInteger size = [markerList count];
+    for (NSUInteger i = 0; i < size; i++){
         GMSMarker *marker = [markerList objectAtIndex:i];
         if (visibility)
             marker.opacity = 1;

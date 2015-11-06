@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-@import GoogleMaps;
+
 
 @interface ViewController ()
 
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.db = [[Database alloc ]init];
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86 longitude:151.20 zoom:6];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:28.299221 longitude: -16.525690 zoom:6];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.myLocationEnabled = YES;
     mapView_.mapType = kGMSTypeTerrain;
@@ -32,6 +32,7 @@
     mapView_.settings.tiltGestures = NO;
     mapView_.settings.compassButton = NO;
     mapView_.settings.myLocationButton = YES;
+    mapView_.delegate = self;
     self.view = mapView_;
     [self loadRoutes];
 }
@@ -62,12 +63,14 @@
         CLLocationCoordinate2D position = CLLocationCoordinate2DMake(inicLat, inicLong);
         GMSMarker *marker = [GMSMarker markerWithPosition:position];
         marker.title = nombre;
+        marker.icon = [self setIcon:approved];
         marker.map = mapView_;
         [route setMarker:marker];
         if ((finLat != 0) && (finLong != 0)){
             CLLocationCoordinate2D position2 = CLLocationCoordinate2DMake(finLat, finLong);
             GMSMarker *marker2 = [GMSMarker markerWithPosition:position2];
             marker2.title = nombre;
+            marker2.icon = [self setIcon:approved];
             marker2.map = mapView_;
             [route setMarker:marker2];
         }
@@ -80,5 +83,37 @@
     //NSLog( [r getName]);
     [results close];
 }
+/*-(BOOL)didTapMyLocationButtonForMapView:(GMSMapView *)mapView{
+    NSLog(@"MyLocation");
+    return YES;
+}*/
+-(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker{
+    
+    [mapView_ animateToLocation:CLLocationCoordinate2DMake(marker.position.latitude, marker.position.longitude)];
+    NSLog(marker.title);
+    return YES;
+}
 
+-(UIImage *)setIcon: (int)approved{
+
+    UIImage *icon = nil;
+    switch (approved) {
+        case 0:
+            icon = [UIImage imageNamed:@"marker_sign_16_normal"];
+            break;
+        case 1:
+            icon = [UIImage imageNamed:@"marker_sign_16_green"];
+            break;
+        case 2:
+            icon = [UIImage imageNamed:@"marker_sign_16_yellow"];
+            break;
+        case 3:
+            icon = [UIImage imageNamed:@"marker_sign_16_red"];
+            break;
+        default:
+            icon = [UIImage imageNamed:@"marker_sign_16_normal"];
+            break;
+    }
+    return icon;
+}
 @end

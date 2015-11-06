@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Database.h"
 #import "Route.h"
+@import GoogleMaps;
 
-
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GMSMapViewDelegate>
 
 @property Database *db;
 @property NSMutableArray *routes;
