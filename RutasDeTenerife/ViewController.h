@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "Database.h"
 #import "Route.h"
+#import "KMLParser.h"
+
 @import GoogleMaps;
 
 @interface ViewController : UIViewController <GMSMapViewDelegate>
 
 @property Database *db;
 @property NSMutableArray *routes;
+@property (nonatomic, strong) KMLParser *kmlParser;
 
 
 @end

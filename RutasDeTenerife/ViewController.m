@@ -83,14 +83,23 @@
     //NSLog( [r getName]);
     [results close];
 }
-/*-(BOOL)didTapMyLocationButtonForMapView:(GMSMapView *)mapView{
+-(BOOL)didTapMyLocationButtonForMapView:(GMSMapView *)mapView{
     NSLog(@"MyLocation");
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"kml"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    self.kmlParser = [[KMLParser alloc] initWithURL:url];
+    [self.kmlParser parseKML];
+    NSArray *overlays = [self.kmlParser overlays];
+    NSUInteger size = [overlays count];
+    NSString *cad = [NSString stringWithFormat:@"count :%lu",(unsigned long)size];
+    NSLog(cad);
     return YES;
-}*/
+}
 -(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker{
     
     [mapView_ animateToLocation:CLLocationCoordinate2DMake(marker.position.latitude, marker.position.longitude)];
     NSLog(marker.title);
+
     return YES;
 }
 

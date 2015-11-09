@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593976D51BED5ABE00BAB6CC /* example.kml in Resources */ = {isa = PBXBuildFile; fileRef = 593976D41BED5ABE00BAB6CC /* example.kml */; };
+		593C15C01BED368C001C7700 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C15BF1BED368C001C7700 /* KMLParser.m */; };
 		595A37F6A157DA0CB3F11742 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDF64A23B71FCEE662F798B /* libPods.a */; };
 		9D185C711BE24602005AFBC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C701BE24602005AFBC1 /* main.m */; };
 		9D185C741BE24602005AFBC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D185C731BE24602005AFBC1 /* AppDelegate.m */; };
@@ -344,6 +346,9 @@
 
 /* Begin PBXFileReference section */
 		2D4C36A932E4B47D5A0D6BE2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		593976D41BED5ABE00BAB6CC /* example.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = example.kml; sourceTree = "<group>"; };
+		593C15BE1BED368C001C7700 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		593C15BF1BED368C001C7700 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		9D185C6C1BE24602005AFBC1 /* RutasDeTenerife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RutasDeTenerife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D185C701BE24602005AFBC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D185C721BE24602005AFBC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -742,6 +747,8 @@
 		9D185C6E1BE24602005AFBC1 /* RutasDeTenerife */ = {
 			isa = PBXGroup;
 			children = (
+				593C15BE1BED368C001C7700 /* KMLParser.h */,
+				593C15BF1BED368C001C7700 /* KMLParser.m */,
 				9DAA91361BECEAC3006BF640 /* drawable */,
 				9DB1A3451BE3969B009E0FD6 /* assets */,
 				9DB1A32F1BE385B6009E0FD6 /* fmdb */,
@@ -915,6 +922,7 @@
 		9DB1A3451BE3969B009E0FD6 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				593976D41BED5ABE00BAB6CC /* example.kml */,
 				9DB1A3461BE3969B009E0FD6 /* 02-arenas-negras.gpx */,
 				9DB1A3471BE3969B009E0FD6 /* 02-arenas-negras.kml */,
 				9DB1A3481BE3969B009E0FD6 /* 03-roques-garcia.gpx */,
@@ -1501,6 +1509,7 @@
 				9DB1A4581BE3969C009E0FD6 /* PR-TF 43.2.gpx in Resources */,
 				9DB1A4671BE3969C009E0FD6 /* PR-TF 52.2.kml in Resources */,
 				9DAA91CD1BECEAC3006BF640 /* i299.png in Resources */,
+				593976D51BED5ABE00BAB6CC /* example.kml in Resources */,
 				9DAA91F61BECEAC3006BF640 /* marker_sign_24_yellow.png in Resources */,
 				9DB1A40F1BE3969C009E0FD6 /* 03-roques-garcia.gpx in Resources */,
 				9DB1A4B41BE3969C009E0FD6 /* ruta-de-los-almendros-sl-tf.gpx in Resources */,
@@ -1614,6 +1623,7 @@
 				9D185C711BE24602005AFBC1 /* main.m in Sources */,
 				9DB1A4D61BE3ABD8009E0FD6 /* Route.m in Sources */,
 				9DB1A33B1BE385B6009E0FD6 /* FMDatabase.m in Sources */,
+				593C15C01BED368C001C7700 /* KMLParser.m in Sources */,
 				9DB1A33F1BE385B6009E0FD6 /* FMResultSet.m in Sources */,
 				9DB1A3441BE391F9009E0FD6 /* Database.m in Sources */,
 				9DB1A33C1BE385B6009E0FD6 /* FMDatabaseAdditions.m in Sources */,
