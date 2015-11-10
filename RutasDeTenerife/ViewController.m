@@ -16,6 +16,7 @@
 
 @implementation ViewController{
     GMSMapView *mapView_;
+    GMSPolyline *currentPath;
 }
 
 - (void)viewDidLoad {
@@ -65,6 +66,7 @@
         marker.title = nombre;
         marker.icon = [self setIcon:approved];
         marker.map = mapView_;
+        marker.userData = [NSNumber numberWithInt:identifier];
         [route setMarker:marker];
         if ((finLat != 0) && (finLong != 0)){
             CLLocationCoordinate2D position2 = CLLocationCoordinate2DMake(finLat, finLong);
@@ -72,6 +74,7 @@
             marker2.title = nombre;
             marker2.icon = [self setIcon:approved];
             marker2.map = mapView_;
+            marker2.userData = [NSNumber numberWithInt:identifier];
             [route setMarker:marker2];
         }
         [self.routes addObject:route];
@@ -83,23 +86,38 @@
     //NSLog( [r getName]);
     [results close];
 }
+
 -(BOOL)didTapMyLocationButtonForMapView:(GMSMapView *)mapView{
     NSLog(@"MyLocation");
     NSString *path = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:path];
-    self.kmlParser = [[KMLParser alloc] initWithURL:url];
+    self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
     [self.kmlParser parseKML];
-    NSArray *overlays = [self.kmlParser overlays];
+    CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
+    NSLog([NSString stringWithFormat:@"Latitud parseo 3: %f", c.latitude ]);
+    /*NSArray *overlays = [self.kmlParser overlays];
     NSUInteger size = [overlays count];
     NSString *cad = [NSString stringWithFormat:@"count :%lu",(unsigned long)size];
-    NSLog(cad);
+    NSLog(cad);*/
     return YES;
 }
+
 -(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker{
     
     [mapView_ animateToLocation:CLLocationCoordinate2DMake(marker.position.latitude, marker.position.longitude)];
-    NSLog(marker.title);
-
+    NSNumber *number = marker.userData;
+    NSUInteger identifer = [number unsignedIntegerValue];
+    Route *route = [self findRouteById:identifer];
+    NSString *kmlName = [route getXmlRoute];
+    kmlName =[kmlName substringToIndex:[kmlName length] - 4];
+    NSLog(kmlName);
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:kmlName ofType:@"kml"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
+    [self.kmlParser parseKML];
+    //CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
+    NSMutableArray *coordinates = self.kmlParser.path;
     return YES;
 }
 
@@ -124,5 +142,16 @@
             break;
     }
     return icon;
+}
+
+-(Route *)findRouteById:(NSUInteger)identifier{
+    Route *r = nil;
+    NSUInteger size = [self.routes count];
+    for (NSUInteger i = 0; i < size; i++){
+        r = [self.routes objectAtIndex:i];
+        if ([r getId] == identifier)
+            return r;
+    }
+    return r;
 }
 @end
