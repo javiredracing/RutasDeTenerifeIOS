@@ -25,7 +25,7 @@
     int approved;
 }
 
-@property (readonly) BOOL isActive;
+@property BOOL isActive;
 
 -(void)setMarker: (GMSMarker *)marker;
 -(NSString *)getName;

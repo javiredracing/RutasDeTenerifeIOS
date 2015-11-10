@@ -17,6 +17,7 @@
 @implementation ViewController{
     GMSMapView *mapView_;
     GMSPolyline *currentPath;
+
 }
 
 - (void)viewDidLoad {
@@ -108,16 +109,33 @@
     NSNumber *number = marker.userData;
     NSUInteger identifer = [number unsignedIntegerValue];
     Route *route = [self findRouteById:identifer];
-    NSString *kmlName = [route getXmlRoute];
-    kmlName =[kmlName substringToIndex:[kmlName length] - 4];
-    NSLog(kmlName);
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:kmlName ofType:@"kml"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
-    [self.kmlParser parseKML];
-    //CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
-    NSMutableArray *coordinates = self.kmlParser.path;
+    if (!route.isActive){
+        route.isActive = YES;
+        NSString *kmlName = [route getXmlRoute];
+        kmlName =[kmlName substringToIndex:[kmlName length] - 4];
+        NSLog(kmlName);
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:kmlName ofType:@"kml"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
+        [self.kmlParser parseKML];
+        //CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
+        NSMutableArray *coordinates = self.kmlParser.path;
+        GMSMutablePath *points = [GMSMutablePath path];
+        NSUInteger size = [coordinates count];
+        for (NSUInteger i = 0; i < size; i++){
+            NSValue *value = [coordinates objectAtIndex:i];
+            CLLocationCoordinate2D c = [value MKCoordinateValue];
+            [points addCoordinate:c];
+        }
+        currentPath = [GMSPolyline polylineWithPath:points];
+        currentPath.map = mapView_;
+    }else{
+        if (currentPath != nil)
+            currentPath.map = nil;
+        route.isActive = NO;
+    }
     return YES;
 }
 
