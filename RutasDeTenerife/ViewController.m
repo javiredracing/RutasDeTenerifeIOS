@@ -17,7 +17,9 @@
 @implementation ViewController{
     GMSMapView *mapView_;
     GMSPolyline *currentPath;
-
+    Route *lastRouteShowed;
+    
+    BOOL isTapped;
 }
 
 - (void)viewDidLoad {
@@ -34,9 +36,20 @@
     mapView_.settings.tiltGestures = NO;
     mapView_.settings.compassButton = NO;
     mapView_.settings.myLocationButton = YES;
+
     mapView_.delegate = self;
     self.view = mapView_;
     [self loadRoutes];
+    
+    isTapped = NO;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+     GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] init];
+    [mapView_ animateWithCameraUpdate: [GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+    
+    //bounds = [bounds includingCoordinate:marker2.position];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,6 +60,9 @@
 -(void)loadRoutes{
     self.routes = [[NSMutableArray alloc]init];
     FMResultSet * results = [self.db getInfoMap];
+    
+   
+    
     while ([results next]) {
         NSString *nombre = [results stringForColumnIndex:0];
         double inicLat = [results doubleForColumnIndex:1];
@@ -68,6 +84,7 @@
         marker.icon = [self setIcon:approved];
         marker.map = mapView_;
         marker.userData = [NSNumber numberWithInt:identifier];
+        
         [route setMarker:marker];
         if ((finLat != 0) && (finLong != 0)){
             CLLocationCoordinate2D position2 = CLLocationCoordinate2DMake(finLat, finLong);
@@ -77,65 +94,38 @@
             marker2.map = mapView_;
             marker2.userData = [NSNumber numberWithInt:identifier];
             [route setMarker:marker2];
+            
         }
         [self.routes addObject:route];
-        
-        
-        //NSLog(nombre);
     }
-    //Route *r =[self.routes objectAtIndex:1];
-    //NSLog( [r getName]);
+    
+    
     [results close];
 }
 
 -(BOOL)didTapMyLocationButtonForMapView:(GMSMapView *)mapView{
     NSLog(@"MyLocation");
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"kml"];
+    /*NSString *path = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"kml"];
     NSURL *url = [NSURL fileURLWithPath:path];
     self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
     [self.kmlParser parseKML];
     CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
     NSLog([NSString stringWithFormat:@"Latitud parseo 3: %f", c.latitude ]);
-    /*NSArray *overlays = [self.kmlParser overlays];
+    NSArray *overlays = [self.kmlParser overlays];
     NSUInteger size = [overlays count];
     NSString *cad = [NSString stringWithFormat:@"count :%lu",(unsigned long)size];
     NSLog(cad);*/
-    return YES;
+    return NO;
 }
 
 -(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker{
     
-    [mapView_ animateToLocation:CLLocationCoordinate2DMake(marker.position.latitude, marker.position.longitude)];
+   
     NSNumber *number = marker.userData;
     NSUInteger identifer = [number unsignedIntegerValue];
     Route *route = [self findRouteById:identifer];
-    
-    if (!route.isActive){
-        route.isActive = YES;
-        NSString *kmlName = [route getXmlRoute];
-        kmlName =[kmlName substringToIndex:[kmlName length] - 4];
-        NSLog(kmlName);
-        
-        NSString *path = [[NSBundle mainBundle] pathForResource:kmlName ofType:@"kml"];
-        NSURL *url = [NSURL fileURLWithPath:path];
-        self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
-        [self.kmlParser parseKML];
-        //CLLocationCoordinate2D c = [[self.kmlParser.path objectAtIndex:3] MKCoordinateValue];
-        NSMutableArray *coordinates = self.kmlParser.path;
-        GMSMutablePath *points = [GMSMutablePath path];
-        NSUInteger size = [coordinates count];
-        for (NSUInteger i = 0; i < size; i++){
-            NSValue *value = [coordinates objectAtIndex:i];
-            CLLocationCoordinate2D c = [value MKCoordinateValue];
-            [points addCoordinate:c];
-        }
-        currentPath = [GMSPolyline polylineWithPath:points];
-        currentPath.map = mapView_;
-    }else{
-        if (currentPath != nil)
-            currentPath.map = nil;
-        route.isActive = NO;
-    }
+    if (route != nil)
+        [self clickAction:route :marker.position];
     return YES;
 }
 
@@ -171,5 +161,61 @@
             return r;
     }
     return r;
+}
+
+-(void)clickAction: (Route *)myroute: (CLLocationCoordinate2D)pos{
+    
+    if (!isTapped) {
+        isTapped = YES;
+        if (lastRouteShowed != nil){
+            if ([lastRouteShowed getId] == [myroute getId]){
+                lastRouteShowed = nil;
+            }
+        }
+        
+        myroute.isActive = !myroute.isActive;
+        if (lastRouteShowed != nil) {
+            lastRouteShowed.isActive = NO;
+        }
+        lastRouteShowed = myroute;
+        if (currentPath != nil){
+            currentPath.map = nil;
+        }
+        
+        
+        if (myroute.isActive){
+            
+            [mapView_ animateToLocation:pos];
+            NSString *kmlName = [myroute getXmlRoute];
+            kmlName =[kmlName substringToIndex:[kmlName length] - 4];
+            NSLog(kmlName);
+            
+            NSString *path = [[NSBundle mainBundle] pathForResource:kmlName ofType:@"kml"];
+            NSURL *url = [NSURL fileURLWithPath:path];
+            
+            //Async task
+            dispatch_queue_t queue = dispatch_get_global_queue(QOS_CLASS_USER_INTERACTIVE, 0);
+            dispatch_async(queue, ^{
+                //code to be executed in the background
+                self.kmlParser = [[CustomKMLParser alloc] initWithURL:url];
+                [self.kmlParser parseKML];
+                NSMutableArray *coordinates = self.kmlParser.path;
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    //code to be executed on the main thread when background task is finished
+                    GMSMutablePath *points = [GMSMutablePath path];
+                    NSUInteger size = [coordinates count];
+                    for (NSUInteger i = 0; i < size; i++){
+                        NSValue *value = [coordinates objectAtIndex:i];
+                        CLLocationCoordinate2D c = [value MKCoordinateValue];
+                        [points addCoordinate:c];
+                    }
+                    currentPath = [GMSPolyline polylineWithPath:points];
+                    currentPath.map = mapView_;
+                    isTapped = NO;
+                });
+            });
+        }
+    }
 }
 @end

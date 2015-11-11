@@ -51,7 +51,7 @@ NSMutableString *currentElementValue;
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{
     if (([elementName isEqualToString:@"coordinates"]) && (isCoordinates)) {
         isCoordinates = NO;
-        NSLog(@"Processing value for : %@", currentElementValue);
+        //NSLog(@"Processing value for : %@", currentElementValue);
     }
 
 }
@@ -63,41 +63,13 @@ NSMutableString *currentElementValue;
 
 // Convert a KML coordinate list string to a C array of CLLocationCoordinate2Ds.
 // KML coordinate lists are longitude,latitude[,altitude] tuples specified by whitespace.
-/*static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUInteger *coordsLenOut) {
-    NSUInteger read = 0, space = 10;
-    CLLocationCoordinate2D *coords = malloc(sizeof(CLLocationCoordinate2D) * space);
-    
-    NSArray *tuples = [str componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    for (NSString *tuple in tuples) {
-        if (read == space) {
-            space *= 2;
-            coords = realloc(coords, sizeof(CLLocationCoordinate2D) * space);
-        }
-        
-        double lat, lon;
-        NSScanner *scanner = [[NSScanner alloc] initWithString:tuple];
-        [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@","]];
-        BOOL success = [scanner scanDouble:&lon];
-        if (success)
-            success = [scanner scanDouble:&lat];
-        if (success) {
-            CLLocationCoordinate2D c = CLLocationCoordinate2DMake(lat, lon);
-            if (CLLocationCoordinate2DIsValid(c))
-                coords[read++] = c;
-        }
-    }
-    
-    *coordsOut = coords;
-    *coordsLenOut = read;
-}*/
-
 -(void)strToCoords{
     NSMutableArray *array = (NSMutableArray *)[currentElementValue componentsSeparatedByString:@" "];
     [array removeObject:@""]; // This removes all objects like @""
     NSUInteger i = 0;
     NSUInteger size = [array count];
     for (i = 0; i < size ; i++) {
-        double lat, lon, alt;
+        double lat=0.0, lon=0.0, alt=0.0;
         NSString *tupla =[array objectAtIndex:i];
         NSScanner *scanner = [[NSScanner alloc] initWithString:tupla];
         [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@","]];
@@ -105,8 +77,9 @@ NSMutableString *currentElementValue;
         if (success)
             success = [scanner scanDouble:&lat];
         if (success) {
-            CLLocationCoordinate2D c = CLLocationCoordinate2DMake(lat, lon);
-            [self.path addObject:[NSValue valueWithMKCoordinate:c]];
+            CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(lat, lon);
+            NSValue *value = [NSValue valueWithMKCoordinate:coor];
+            [self.path addObject:value];
         }
         success = [scanner scanDouble:&alt];
         if (success) {
