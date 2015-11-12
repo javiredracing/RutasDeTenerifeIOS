@@ -45,11 +45,25 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-     GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] init];
-    [mapView_ animateWithCameraUpdate: [GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
     
-    //bounds = [bounds includingCoordinate:marker2.position];
+    [super viewWillAppear:animated];
+    if (self.routes){
+        GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] init];
+        [mapView_ animateWithCameraUpdate: [GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+        NSUInteger size = [self.routes count];
+        for (NSUInteger i = 0; i < size; i++){
+            Route *r = [self.routes objectAtIndex:i];
+            NSArray * markers = [r getMarkersList];
+            NSUInteger size2 = [markers count];
+            for (NSUInteger j = 0; j < size2; j++){
+                GMSMarker *marker = [markers objectAtIndex:j];
+                bounds = [bounds includingCoordinate:marker.position];
+            }
+        }
+        if (size > 0){
+            [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
